@@ -2,7 +2,7 @@
     "forge_marker": 1,
     "defaults": {
         "textures": {
-            "top": "blocks/quartz_block_lines_top",
+            "top": "blocks/quartz_block_top",
             "side": "blocks/quartz_block_lines",
             "leg": "blocks/quartz_block_top"
         },

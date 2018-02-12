@@ -2,7 +2,6 @@ package com.jtripled.furnish;
 
 import com.jtripled.voxen.mod.ModBase;
 import com.jtripled.voxen.mod.Registry;
-import com.jtripled.voxen.network.Network;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;

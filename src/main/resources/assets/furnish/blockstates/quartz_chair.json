@@ -2,7 +2,7 @@
     "forge_marker": 1,
     "defaults": {
         "textures": {
-            "seat": "blocks/quartz_block_lines_top",
+            "seat": "blocks/quartz_block_top",
             "trim": "blocks/quartz_block_lines",
             "leg": "blocks/quartz_block_top"
         },

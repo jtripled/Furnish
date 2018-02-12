@@ -2,6 +2,7 @@ package com.jtripled.furnish;
 
 import com.jtripled.furnish.block.BlockChair;
 import com.jtripled.furnish.block.BlockCoffeeTable;
+import com.jtripled.furnish.block.BlockCouch;
 import com.jtripled.furnish.block.BlockSimpleTable;
 import com.jtripled.voxen.block.IBlockBase;
 import com.jtripled.voxen.mod.RegistrationHandler;
@@ -59,6 +60,21 @@ public class FurnishRegistry implements Registry
     public static final IBlockBase SPRUCE_CHAIR = new BlockChair("spruce_chair", Material.WOOD);
     public static final IBlockBase STONE_BRICK_CHAIR = new BlockChair("stone_brick_chair", Material.ROCK);
     
+    public static final IBlockBase ACACIA_COUCH = new BlockCouch("acacia_couch", Material.WOOD);
+    public static final IBlockBase BIRCH_COUCH = new BlockCouch("birch_couch", Material.WOOD);
+    public static final IBlockBase BRICK_COUCH = new BlockCouch("brick_couch", Material.ROCK);
+    public static final IBlockBase COBBLESTONE_COUCH = new BlockCouch("cobblestone_couch", Material.ROCK);
+    public static final IBlockBase DARK_OAK_COUCH = new BlockCouch("dark_oak_couch", Material.WOOD);
+    public static final IBlockBase JUNGLE_COUCH = new BlockCouch("jungle_couch", Material.WOOD);
+    public static final IBlockBase NETHER_BRICK_COUCH = new BlockCouch("nether_brick_couch", Material.ROCK);
+    public static final IBlockBase OAK_COUCH = new BlockCouch("oak_couch", Material.WOOD);
+    public static final IBlockBase PURPUR_COUCH = new BlockCouch("purpur_couch", Material.ROCK);
+    public static final IBlockBase QUARTZ_COUCH = new BlockCouch("quartz_couch", Material.ROCK);
+    public static final IBlockBase RED_SANDSTONE_COUCH = new BlockCouch("red_sandstone_couch", Material.ROCK);
+    public static final IBlockBase SANDSTONE_COUCH = new BlockCouch("sandstone_couch", Material.ROCK);
+    public static final IBlockBase SPRUCE_COUCH = new BlockCouch("spruce_couch", Material.WOOD);
+    public static final IBlockBase STONE_BRICK_COUCH = new BlockCouch("stone_brick_couch", Material.ROCK);
+    
     @Override
     public void onRegisterBlocks(RegistrationHandler handler)
     {
@@ -106,5 +122,20 @@ public class FurnishRegistry implements Registry
         handler.registerBlock(SANDSTONE_CHAIR);
         handler.registerBlock(SPRUCE_CHAIR);
         handler.registerBlock(STONE_BRICK_CHAIR);
+        
+        handler.registerBlock(ACACIA_COUCH);
+        handler.registerBlock(BIRCH_COUCH);
+        handler.registerBlock(BRICK_COUCH);
+        handler.registerBlock(COBBLESTONE_COUCH);
+        handler.registerBlock(DARK_OAK_COUCH);
+        handler.registerBlock(JUNGLE_COUCH);
+        handler.registerBlock(NETHER_BRICK_COUCH);
+        handler.registerBlock(OAK_COUCH);
+        handler.registerBlock(PURPUR_COUCH);
+        handler.registerBlock(QUARTZ_COUCH);
+        handler.registerBlock(RED_SANDSTONE_COUCH);
+        handler.registerBlock(SANDSTONE_COUCH);
+        handler.registerBlock(SPRUCE_COUCH);
+        handler.registerBlock(STONE_BRICK_COUCH);
     }
 }
