@@ -1,0 +1,16 @@
+[
+{
+  "modid": "furnish",
+  "name": "Furnish",
+  "description": "Adds simple furniture to Minecraft.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["jtripled"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": ["voxen"]
+}
+]
