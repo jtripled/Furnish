@@ -2,7 +2,7 @@ package com.jtripled.furnish;
 
 import com.jtripled.furnish.block.BlockChair;
 import com.jtripled.furnish.block.BlockCoffeeTable;
-import com.jtripled.furnish.block.BlockTable;
+import com.jtripled.furnish.block.BlockSimpleTable;
 import com.jtripled.voxen.block.IBlockBase;
 import com.jtripled.voxen.mod.RegistrationHandler;
 import com.jtripled.voxen.mod.Registry;
@@ -14,20 +14,20 @@ import net.minecraft.block.material.Material;
  */
 public class FurnishRegistry implements Registry
 {
-    public static final IBlockBase ACACIA_TABLE = new BlockTable("acacia_table", Material.WOOD);
-    public static final IBlockBase BIRCH_TABLE = new BlockTable("birch_table", Material.WOOD);
-    public static final IBlockBase BRICK_TABLE = new BlockTable("brick_table", Material.ROCK);
-    public static final IBlockBase COBBLESTONE_TABLE = new BlockTable("cobblestone_table", Material.ROCK);
-    public static final IBlockBase DARK_OAK_TABLE = new BlockTable("dark_oak_table", Material.WOOD);
-    public static final IBlockBase JUNGLE_TABLE = new BlockTable("jungle_table", Material.WOOD);
-    public static final IBlockBase NETHER_BRICK_TABLE = new BlockTable("nether_brick_table", Material.ROCK);
-    public static final IBlockBase OAK_TABLE = new BlockTable("oak_table", Material.WOOD);
-    public static final IBlockBase PURPUR_TABLE = new BlockTable("purpur_table", Material.ROCK);
-    public static final IBlockBase QUARTZ_TABLE = new BlockTable("quartz_table", Material.ROCK);
-    public static final IBlockBase RED_SANDSTONE_TABLE = new BlockTable("red_sandstone_table", Material.ROCK);
-    public static final IBlockBase SANDSTONE_TABLE = new BlockTable("sandstone_table", Material.ROCK);
-    public static final IBlockBase SPRUCE_TABLE = new BlockTable("spruce_table", Material.WOOD);
-    public static final IBlockBase STONE_BRICK_TABLE = new BlockTable("stone_brick_table", Material.ROCK);
+    public static final IBlockBase ACACIA_TABLE = new BlockSimpleTable("acacia_table", Material.WOOD);
+    public static final IBlockBase BIRCH_TABLE = new BlockSimpleTable("birch_table", Material.WOOD);
+    public static final IBlockBase BRICK_TABLE = new BlockSimpleTable("brick_table", Material.ROCK);
+    public static final IBlockBase COBBLESTONE_TABLE = new BlockSimpleTable("cobblestone_table", Material.ROCK);
+    public static final IBlockBase DARK_OAK_TABLE = new BlockSimpleTable("dark_oak_table", Material.WOOD);
+    public static final IBlockBase JUNGLE_TABLE = new BlockSimpleTable("jungle_table", Material.WOOD);
+    public static final IBlockBase NETHER_BRICK_TABLE = new BlockSimpleTable("nether_brick_table", Material.ROCK);
+    public static final IBlockBase OAK_TABLE = new BlockSimpleTable("oak_table", Material.WOOD);
+    public static final IBlockBase PURPUR_TABLE = new BlockSimpleTable("purpur_table", Material.ROCK);
+    public static final IBlockBase QUARTZ_TABLE = new BlockSimpleTable("quartz_table", Material.ROCK);
+    public static final IBlockBase RED_SANDSTONE_TABLE = new BlockSimpleTable("red_sandstone_table", Material.ROCK);
+    public static final IBlockBase SANDSTONE_TABLE = new BlockSimpleTable("sandstone_table", Material.ROCK);
+    public static final IBlockBase SPRUCE_TABLE = new BlockSimpleTable("spruce_table", Material.WOOD);
+    public static final IBlockBase STONE_BRICK_TABLE = new BlockSimpleTable("stone_brick_table", Material.ROCK);
     
     public static final IBlockBase ACACIA_COFFEE_TABLE = new BlockCoffeeTable("acacia_coffee_table", Material.WOOD);
     public static final IBlockBase BIRCH_COFFEE_TABLE = new BlockCoffeeTable("birch_coffee_table", Material.WOOD);

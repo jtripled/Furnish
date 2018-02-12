@@ -10,6 +10,7 @@
         "uvlock": true
     },
     "variants": {
+        "normal": { "model": "furnish:chair", "y": 90 },
         "facing=north": { "model": "furnish:chair", "y": 270 },
         "facing=south": { "model": "furnish:chair", "y": 90  },
         "facing=east":  { "model": "furnish:chair"           },
