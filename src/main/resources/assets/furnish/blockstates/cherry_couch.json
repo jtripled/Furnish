@@ -1,0 +1,40 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "textures": {
+            "cushion": "biomesoplenty:blocks/cherry_planks",
+            "trim": "biomesoplenty:blocks/cherry_log",
+            "arm": "#cushion",
+            "leg": "#cushion"
+        },
+        "transform": "forge:default-block",
+        "uvlock": true
+    },
+    "variants": {
+        "normal": { "model": "furnish:couch_none", "y": 90 },
+        "facing=north,type=none": { "model": "furnish:couch_none", "y": 270 },
+        "facing=east,type=none": { "model": "furnish:couch_none" },
+        "facing=south,type=none": { "model": "furnish:couch_none", "y": 90 },
+        "facing=west,type=none": { "model": "furnish:couch_none", "y": 180 },
+        "facing=north,type=center": { "model": "furnish:couch_center", "y": 270 },
+        "facing=east,type=center": { "model": "furnish:couch_center" },
+        "facing=south,type=center": { "model": "furnish:couch_center", "y": 90 },
+        "facing=west,type=center": { "model": "furnish:couch_center", "y": 180 },
+        "facing=north,type=left": { "model": "furnish:couch_left", "y": 270 },
+        "facing=east,type=left": { "model": "furnish:couch_left" },
+        "facing=south,type=left": { "model": "furnish:couch_left", "y": 90 },
+        "facing=west,type=left": { "model": "furnish:couch_left", "y": 180 },
+        "facing=north,type=right": { "model": "furnish:couch_right", "y": 270 },
+        "facing=east,type=right": { "model": "furnish:couch_right" },
+        "facing=south,type=right": { "model": "furnish:couch_right", "y": 90 },
+        "facing=west,type=right": { "model": "furnish:couch_right", "y": 180 },
+        "facing=north,type=corner_left": { "model": "furnish:couch_corner_left", "y": 270 },
+        "facing=east,type=corner_left": { "model": "furnish:couch_corner_left" },
+        "facing=south,type=corner_left": { "model": "furnish:couch_corner_left", "y": 90 },
+        "facing=west,type=corner_left": { "model": "furnish:couch_corner_left", "y": 180 },
+        "facing=north,type=corner_right": { "model": "furnish:couch_corner_right", "y": 270 },
+        "facing=east,type=corner_right": { "model": "furnish:couch_corner_right" },
+        "facing=south,type=corner_right": { "model": "furnish:couch_corner_right", "y": 90 },
+        "facing=west,type=corner_right": { "model": "furnish:couch_corner_right", "y": 180 }
+    }
+}

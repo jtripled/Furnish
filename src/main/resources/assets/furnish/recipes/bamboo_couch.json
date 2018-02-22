@@ -1,0 +1,22 @@
+{
+    "conditions": [{
+        "type": "minecraft:item_exists",
+        "item": "biomesoplenty:bamboo_thatching"
+    }],
+    "type": "minecraft:crafting_shaped",
+    "group": "couch",
+    "pattern": [
+        "#  ",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "biomesoplenty:bamboo_thatching",
+            "data": 0
+        }
+    },
+    "result": {
+        "item": "furnish:bamboo_couch"
+    }
+}

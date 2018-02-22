@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "gem_couch",
+    "pattern": [
+        "#  ",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:emerald_block"
+        }
+    },
+    "result": {
+        "item": "furnish:emerald_couch"
+    }
+}

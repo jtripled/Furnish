@@ -1,0 +1,19 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "textures": {
+            "seat": "blocks/diamond_block",
+            "trim": "#seat",
+            "leg": "#seat"
+        },
+        "transform": "forge:default-block",
+        "uvlock": true
+    },
+    "variants": {
+        "normal": { "model": "furnish:chair", "y": 90 },
+        "facing=north": { "model": "furnish:chair", "y": 270 },
+        "facing=south": { "model": "furnish:chair", "y": 90  },
+        "facing=east":  { "model": "furnish:chair"           },
+        "facing=west":  { "model": "furnish:chair", "y": 180 }
+    }
+}

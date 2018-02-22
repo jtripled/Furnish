@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "gem_couch",
+    "pattern": [
+        "#  ",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:gold_block"
+        }
+    },
+    "result": {
+        "item": "furnish:gold_couch"
+    }
+}

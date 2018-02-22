@@ -1,44 +1,314 @@
 tile.acacia_chair.name=Acacia Chair
-tile.birch_chair.name=Birch Chair
-tile.brick_chair.name=Brick Chair
-tile.cobblestone_chair.name=Cobblestone Chair
-tile.dark_oak_chair.name=Dark Oak Chair
-tile.jungle_chair.name=Jungle Chair
-tile.nether_brick_chair.name=Nether Brick Chair
-tile.oak_chair.name=Oak Chair
-tile.purpur_chair.name=Purpur Chair
-tile.quartz_chair.name=Quartz Chair
-tile.red_sandstone_chair.name=Red Sandstone Chair
-tile.sandstone_chair.name=Sandstone Chair
-tile.spruce_chair.name=Spruce Chair
-tile.stone_brick_chair.name=Stone Brick Chair
-
 tile.acacia_coffee_table.name=Acacia Coffee Table
-tile.birch_coffee_table.name=Birch Coffee Table
-tile.brick_coffee_table.name=Brick Coffee Table
-tile.cobblestone_coffee_table.name=Cobblestone Coffee Table
-tile.dark_oak_coffee_table.name=Dark Oak Coffee Table
-tile.jungle_coffee_table.name=Jungle Coffee Table
-tile.nether_brick_coffee_table.name=Nether Brick Coffee Table
-tile.oak_coffee_table.name=Oak Coffee Table
-tile.purpur_coffee_table.name=Purpur Coffee Table
-tile.quartz_coffee_table.name=Quartz Coffee Table
-tile.red_sandstone_coffee_table.name=Red Sandstone Coffee Table
-tile.sandstone_coffee_table.name=Sandstone Coffee Table
-tile.spruce_coffee_table.name=Spruce Coffee Table
-tile.stone_brick_coffee_table.name=Stone Brick Coffee Table
-
+tile.acacia_couch.name=Acacia Couch
 tile.acacia_table.name=Acacia Table
+
+tile.andesite_chair.name=Andesite Chair
+tile.andesite_coffee_table.name=Andesite Coffee Table
+tile.andesite_couch.name=Andesite Couch
+tile.andesite_table.name=Andesite Table
+
+tile.birch_chair.name=Birch Chair
+tile.birch_coffee_table.name=Birch Coffee Table
+tile.birch_couch.name=Birch Couch
 tile.birch_table.name=Birch Table
+
+tile.bone_chair.name=Bone Chair
+tile.bone_coffee_table.name=Bone Coffee Table
+tile.bone_couch.name=Bone Couch
+tile.bone_table.name=Bone Table
+
+tile.brick_chair.name=Brick Chair
+tile.brick_coffee_table.name=Brick Coffee Table
+tile.brick_couch.name=Brick Couch
 tile.brick_table.name=Brick Table
+
+tile.cobblestone_chair.name=Cobblestone Chair
+tile.cobblestone_coffee_table.name=Cobblestone Coffee Table
+tile.cobblestone_couch.name=Cobblestone Couch
 tile.cobblestone_table.name=Cobblestone Table
+
+tile.dark_oak_chair.name=Dark Oak Chair
+tile.dark_oak_coffee_table.name=Dark Oak Coffee Table
+tile.dark_oak_couch.name=Dark Oak Couch
 tile.dark_oak_table.name=Dark Oak Table
+
+tile.dark_prismarine_chair.name=Dark Prismarine Chair
+tile.dark_prismarine_coffee_table.name=Dark Prismarine Coffee Table
+tile.dark_prismarine_couch.name=Dark Prismarine Couch
+tile.dark_prismarine_table.name=Dark Prismarine Table
+
+tile.diamond_chair.name=Diamond Chair
+tile.diamond_coffee_table.name=Diamond Coffee Table
+tile.diamond_couch.name=Diamond Couch
+tile.diamond_table.name=Diamond Table
+
+tile.diorite_chair.name=Diorite Chair
+tile.diorite_coffee_table.name=Diorite Coffee Table
+tile.diorite_couch.name=Diorite Couch
+tile.diorite_table.name=Diorite Table
+
+tile.emerald_chair.name=Emerald Chair
+tile.emerald_coffee_table.name=Emerald Coffee Table
+tile.emerald_couch.name=Emerald Couch
+tile.emerald_table.name=Emerald Table
+
+tile.end_stone_brick_chair.name=End Stone Brick Chair
+tile.end_stone_brick_coffee_table.name=End Stone Brick Coffee Table
+tile.end_stone_brick_couch.name=End Stone Brick Couch
+tile.end_stone_brick_table.name=End Stone Brick Table
+
+tile.gold_chair.name=Gold Chair
+tile.gold_coffee_table.name=Gold Coffee Table
+tile.gold_couch.name=Gold Couch
+tile.gold_table.name=Gold Table
+
+tile.granite_chair.name=Granite Chair
+tile.granite_coffee_table.name=Granite Coffee Table
+tile.granite_couch.name=Granite Couch
+tile.granite_table.name=Granite Table
+
+tile.iron_chair.name=Iron Chair
+tile.iron_coffee_table.name=Iron Coffee Table
+tile.iron_couch.name=Iron Couch
+tile.iron_table.name=Iron Table
+
+tile.jungle_chair.name=Jungle Chair
+tile.jungle_coffee_table.name=Jungle Coffee Table
+tile.jungle_couch.name=Jungle Couch
 tile.jungle_table.name=Jungle Table
+
+tile.lapis_lazuli_chair.name=Lapis Lazuli Chair
+tile.lapis_lazuli_coffee_table.name=Lapis Lazuli Coffee Table
+tile.lapis_lazuli_couch.name=Lapis Lazuli Couch
+tile.lapis_lazuli_table.name=Lapis Lazuli Table
+
+tile.moss_stone_chair.name=Moss Stone Chair
+tile.moss_stone_coffee_table.name=Moss Stone Coffee Table
+tile.moss_stone_couch.name=Moss Stone Couch
+tile.moss_stone_table.name=Moss Stone Table
+
+tile.nether_brick_chair.name=Nether Brick Chair
+tile.nether_brick_coffee_table.name=Nether Brick Coffee Table
+tile.nether_brick_couch.name=Nether Brick Couch
 tile.nether_brick_table.name=Nether Brick Table
+
+tile.oak_chair.name=Oak Chair
+tile.oak_coffee_table.name=Oak Coffee Table
+tile.oak_couch.name=Oak Couch
 tile.oak_table.name=Oak Table
+
+tile.obsidian_chair.name=Obsidian Chair
+tile.obsidian_coffee_table.name=Obsidian Coffee Table
+tile.obsidian_couch.name=Obsidian Couch
+tile.obsidian_table.name=Obsidian Table
+
+tile.polished_andesite_chair.name=Polished Andesite Chair
+tile.polished_andesite_coffee_table.name=Polished Andesite Coffee Table
+tile.polished_andesite_couch.name=Polished Andesite Couch
+tile.polished_andesite_table.name=Polished Andesite Table
+
+tile.polished_diorite_chair.name=Polished Diorite Chair
+tile.polished_diorite_coffee_table.name=Polished Diorite Coffee Table
+tile.polished_diorite_couch.name=Polished Diorite Couch
+tile.polished_diorite_table.name=Polished Diorite Table
+
+tile.polished_granite_chair.name=Polished Granite Chair
+tile.polished_granite_coffee_table.name=Polished Granite Coffee Table
+tile.polished_granite_couch.name=Polished Granite Couch
+tile.polished_granite_table.name=Polished Granite Table
+
+tile.prismarine_chair.name=Prismarine Chair
+tile.prismarine_coffee_table.name=Prismarine Coffee Table
+tile.prismarine_couch.name=Prismarine Couch
+tile.prismarine_table.name=Prismarine Table
+
+tile.prismarine_brick_chair.name=Prismarine Brick Chair
+tile.prismarine_brick_coffee_table.name=Prismarine Brick Coffee Table
+tile.prismarine_brick_couch.name=Prismarine Brick Couch
+tile.prismarine_brick_table.name=Prismarine Brick Table
+
+tile.purpur_chair.name=Purpur Chair
+tile.purpur_coffee_table.name=Purpur Coffee Table
+tile.purpur_couch.name=Purpur Couch
 tile.purpur_table.name=Purpur Table
+
+tile.quartz_chair.name=Quartz Chair
+tile.quartz_coffee_table.name=Quartz Coffee Table
+tile.quartz_couch.name=Quartz Couch
 tile.quartz_table.name=Quartz Table
+
+tile.red_nether_brick_chair.name=Red Nether Brick Chair
+tile.red_nether_brick_coffee_table.name=Red Nether Brick Coffee Table
+tile.red_nether_brick_couch.name=Red Nether Brick Couch
+tile.red_nether_brick_table.name=Red Nether Brick Table
+
+tile.red_sandstone_chair.name=Red Sandstone Chair
+tile.red_sandstone_coffee_table.name=Red Sandstone Coffee Table
+tile.red_sandstone_couch.name=Red Sandstone Couch
 tile.red_sandstone_table.name=Red Sandstone Table
+
+tile.redstone_chair.name=Redstone Chair
+tile.redstone_coffee_table.name=Redstone Coffee Table
+tile.redstone_couch.name=Redstone Couch
+tile.redstone_table.name=Redstone Table
+
+tile.sandstone_chair.name=Sandstone Chair
+tile.sandstone_coffee_table.name=Sandstone Coffee Table
+tile.sandstone_couch.name=Sandstone Couch
 tile.sandstone_table.name=Sandstone Table
+
+tile.spruce_chair.name=Spruce Chair
+tile.spruce_coffee_table.name=Spruce Coffee Table
+tile.spruce_couch.name=Spruce Couch
 tile.spruce_table.name=Spruce Table
+
+tile.stone_brick_chair.name=Stone Brick Chair
+tile.stone_brick_coffee_table.name=Stone Brick Coffee Table
+tile.stone_brick_couch.name=Stone Brick Couch
 tile.stone_brick_table.name=Stone Brick Table
+
+tile.stone_chair.name=Stone Chair
+tile.stone_coffee_table.name=Stone Coffee Table
+tile.stone_couch.name=Stone Couch
+tile.stone_table.name=Stone Table
+
+tile.cherry_chair.name=Cherry Chair
+tile.cherry_coffee_table.name=Cherry Coffee Table
+tile.cherry_couch.name=Cherry Couch
+tile.cherry_table.name=Cherry Table
+
+tile.ebony_chair.name=Ebony Chair
+tile.ebony_coffee_table.name=Ebony Coffee Table
+tile.ebony_couch.name=Ebony Couch
+tile.ebony_table.name=Ebony Table
+
+tile.ethereal_chair.name=Ethereal Chair
+tile.ethereal_coffee_table.name=Ethereal Coffee Table
+tile.ethereal_couch.name=Ethereal Couch
+tile.ethereal_table.name=Ethereal Table
+
+tile.eucalyptus_chair.name=Eucalyptus Chair
+tile.eucalyptus_coffee_table.name=Eucalyptus Coffee Table
+tile.eucalyptus_couch.name=Eucalyptus Couch
+tile.eucalyptus_table.name=Eucalyptus Table
+
+tile.fir_chair.name=Fir Chair
+tile.fir_coffee_table.name=Fir Coffee Table
+tile.fir_couch.name=Fir Couch
+tile.fir_table.name=Fir Table
+
+tile.hellbark_chair.name=Hellbark Chair
+tile.hellbark_coffee_table.name=Hellbark Coffee Table
+tile.hellbark_couch.name=Hellbark Couch
+tile.hellbark_table.name=Hellbark Table
+
+tile.jacaranda_chair.name=Jacaranda Chair
+tile.jacaranda_coffee_table.name=Jacaranda Coffee Table
+tile.jacaranda_couch.name=Jacaranda Couch
+tile.jacaranda_table.name=Jacaranda Table
+
+tile.magic_chair.name=Magic Chair
+tile.magic_coffee_table.name=Magic Coffee Table
+tile.magic_couch.name=Magic Couch
+tile.magic_table.name=Magic Table
+
+tile.mahogany_chair.name=Mahogany Chair
+tile.mahogany_coffee_table.name=Mahogany Coffee Table
+tile.mahogany_couch.name=Mahogany Couch
+tile.mahogany_table.name=Mahogany Table
+
+tile.mangrove_chair.name=Mangrove Chair
+tile.mangrove_coffee_table.name=Mangrove Coffee Table
+tile.mangrove_couch.name=Mangrove Couch
+tile.mangrove_table.name=Mangrove Table
+
+tile.palm_chair.name=Palm Chair
+tile.palm_coffee_table.name=Palm Coffee Table
+tile.palm_couch.name=Palm Couch
+tile.palm_table.name=Palm Table
+
+tile.pine_chair.name=Pine Chair
+tile.pine_coffee_table.name=Pine Coffee Table
+tile.pine_couch.name=Pine Couch
+tile.pine_table.name=Pine Table
+
+tile.redwood_chair.name=Redwood Chair
+tile.redwood_coffee_table.name=Redwood Coffee Table
+tile.redwood_couch.name=Redwood Couch
+tile.redwood_table.name=Redwood Table
+
+tile.sacred_oak_chair.name=Sacred Oak Chair
+tile.sacred_oak_coffee_table.name=Sacred Oak Coffee Table
+tile.sacred_oak_couch.name=Sacred Oak Couch
+tile.sacred_oak_table.name=Sacred Oak Table
+
+tile.umbran_chair.name=Umbran Chair
+tile.umbran_coffee_table.name=Umbran Coffee Table
+tile.umbran_couch.name=Umbran Couch
+tile.umbran_table.name=Umbran Table
+
+tile.willow_chair.name=Willow Chair
+tile.willow_coffee_table.name=Willow Coffee Table
+tile.willow_couch.name=Willow Couch
+tile.willow_table.name=Willow Table
+
+tile.bamboo_chair.name=Bamboo Chair
+tile.bamboo_coffee_table.name=Bamboo Coffee Table
+tile.bamboo_couch.name=Bamboo Couch
+tile.bamboo_table.name=Bamboo Table
+
+tile.mud_brick_chair.name=Mud Brick Chair
+tile.mud_brick_coffee_table.name=Mud Brick Coffee Table
+tile.mud_brick_couch.name=Mud Brick Couch
+tile.mud_brick_table.name=Mud Brick Table
+
+tile.white_sandstone_chair.name=White Sandstone Chair
+tile.white_sandstone_coffee_table.name=White Sandstone Coffee Table
+tile.white_sandstone_couch.name=White Sandstone Couch
+tile.white_sandstone_table.name=White Sandstone Table
+
+tile.amethyst_chair.name=Amethyst Chair
+tile.amethyst_coffee_table.name=Amethyst Coffee Table
+tile.amethyst_couch.name=Amethyst Couch
+tile.amethyst_table.name=Amethyst Table
+
+tile.ruby_chair.name=Ruby Chair
+tile.ruby_coffee_table.name=Ruby Coffee Table
+tile.ruby_couch.name=Ruby Couch
+tile.ruby_table.name=Ruby Table
+
+tile.peridot_chair.name=Peridot Chair
+tile.peridot_coffee_table.name=Peridot Coffee Table
+tile.peridot_couch.name=Peridot Couch
+tile.peridot_table.name=Peridot Table
+
+tile.topaz_chair.name=Topaz Chair
+tile.topaz_coffee_table.name=Topaz Coffee Table
+tile.topaz_couch.name=Topaz Couch
+tile.topaz_table.name=Topaz Table
+
+tile.tanzanite_chair.name=Tanzanite Chair
+tile.tanzanite_coffee_table.name=Tanzanite Coffee Table
+tile.tanzanite_couch.name=Tanzanite Couch
+tile.tanzanite_table.name=Tanzanite Table
+
+tile.malachite_chair.name=Malachite Chair
+tile.malachite_coffee_table.name=Malachite Coffee Table
+tile.malachite_couch.name=Malachite Couch
+tile.malachite_table.name=Malachite Table
+
+tile.sapphire_chair.name=Sapphire Chair
+tile.sapphire_coffee_table.name=Sapphire Coffee Table
+tile.sapphire_couch.name=Sapphire Couch
+tile.sapphire_table.name=Sapphire Table
+
+tile.amber_chair.name=Amber Chair
+tile.amber_coffee_table.name=Amber Coffee Table
+tile.amber_couch.name=Amber Couch
+tile.amber_table.name=Amber Table
+
+tile.flesh_chair.name=Flesh Chair
+tile.flesh_coffee_table.name=Flesh Coffee Table
+tile.flesh_couch.name=Flesh Couch
+tile.flesh_table.name=Flesh Table

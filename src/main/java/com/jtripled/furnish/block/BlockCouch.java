@@ -1,26 +1,27 @@
 package com.jtripled.furnish.block;
 
+import com.jtripled.voxen.block.BlockSittableHorizontal;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.properties.IProperty;
 import net.minecraft.block.properties.PropertyEnum;
 import net.minecraft.block.state.BlockStateContainer;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.util.EnumFacing;
+import net.minecraft.util.EnumHand;
 import net.minecraft.util.IStringSerializable;
-import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockAccess;
+import net.minecraft.world.World;
 
 /**
  *
  * @author jtripled
  */
-public class BlockCouch extends BlockSittable
+public class BlockCouch extends BlockSittableHorizontal
 {
     public static final PropertyEnum<BlockCouch.Type> TYPE = PropertyEnum.create("type", BlockCouch.Type.class);
-    public static final AxisAlignedBB BOUNDING_BOX = new AxisAlignedBB(0.0d, 0.0d, 0.0d, 1.0d, 1.0d, 1.0d);
-    public static final double SEAT_HEIGHT = 0.4375d;
     
     public BlockCouch(String name, Material material)
     {
@@ -30,22 +31,17 @@ public class BlockCouch extends BlockSittable
         this.setItem();
         this.setFullCube(false);
         this.setOpaque(false);
+        this.setSeatHeight(0.4375d);
     }
     
     @Override
-    public AxisAlignedBB getBoundingBox(IBlockState state, IBlockAccess world, BlockPos pos)
+    public boolean onBlockActivated(World world, BlockPos pos, IBlockState state, EntityPlayer player, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ)
     {
-        return BOUNDING_BOX;
+        return false;
     }
 
     @Override
-    public double getSeatHeight()
-    {
-        return SEAT_HEIGHT;
-    }
-    
-    @Override
-    public BlockStateContainer createBlockState()
+    protected BlockStateContainer createBlockState()
     {
         return new BlockStateContainer(this, new IProperty[] {TYPE, FACING});
     }

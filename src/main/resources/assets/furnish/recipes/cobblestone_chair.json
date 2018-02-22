@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "stone_chair",
+    "pattern": [
+        "#  ",
+        "###",
+        "# #"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:cobblestone"
+        }
+    },
+    "result": {
+        "item": "furnish:cobblestone_chair"
+    }
+}

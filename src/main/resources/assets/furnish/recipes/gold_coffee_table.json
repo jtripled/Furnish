@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "gem_coffee_table",
+    "pattern": [
+        "   ",
+        "###",
+        "# #"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:gold_block"
+        }
+    },
+    "result": {
+        "item": "furnish:gold_coffee_table"
+    }
+}

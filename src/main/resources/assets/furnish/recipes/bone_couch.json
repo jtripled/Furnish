@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "organic_couch",
+    "pattern": [
+        "#  ",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:bone_block"
+        }
+    },
+    "result": {
+        "item": "furnish:bone_couch"
+    }
+}

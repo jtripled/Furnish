@@ -1,0 +1,22 @@
+{
+    "conditions": [{
+        "type": "minecraft:item_exists",
+        "item": "biomesoplenty:planks_0"
+    }],
+    "type": "minecraft:crafting_shaped",
+    "group": "table",
+    "pattern": [
+        "###",
+        "# #",
+        "# #"
+    ],
+    "key": {
+        "#": {
+            "item": "biomesoplenty:planks_0",
+            "data": 14
+        }
+    },
+    "result": {
+        "item": "furnish:ebony_table"
+    }
+}

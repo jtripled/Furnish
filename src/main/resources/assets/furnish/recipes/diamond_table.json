@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "gem_table",
+    "pattern": [
+        "###",
+        "# #",
+        "# #"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:diamond_block"
+        }
+    },
+    "result": {
+        "item": "furnish:diamond_table"
+    }
+}

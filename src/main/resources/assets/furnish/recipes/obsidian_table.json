@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "stone_table",
+    "pattern": [
+        "###",
+        "# #",
+        "# #"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:obsidian"
+        }
+    },
+    "result": {
+        "item": "furnish:obsidian_table"
+    }
+}

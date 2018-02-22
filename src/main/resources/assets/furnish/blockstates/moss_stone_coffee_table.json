@@ -1,0 +1,32 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "textures": {
+            "top": "blocks/cobblestone_mossy",
+            "side": "#top",
+            "leg": "#top"
+        },
+        "transform": "forge:default-block",
+        "uvlock": true
+    },
+    "variants": {
+        "normal": { "model": "furnish:coffee_table_leg_4", "unvlock": true },
+        "east=false,north=false,south=false,west=false": { "model": "furnish:coffee_table_leg_4", "uvlock": true },
+        "east=false,north=true,south=false,west=false": { "model": "furnish:coffee_table_leg_2", "uvlock": true },
+        "east=true,north=false,south=false,west=false": { "model": "furnish:coffee_table_leg_2", "y": 90, "uvlock": true },
+        "east=false,north=false,south=true,west=false": { "model": "furnish:coffee_table_leg_2", "y": 180, "uvlock": true },
+        "east=false,north=false,south=false,west=true": { "model": "furnish:coffee_table_leg_2", "y": 270, "uvlock": true },
+        "east=true,north=true,south=false,west=false": { "model": "furnish:coffee_table_leg_1", "y": 90, "uvlock": true },
+        "east=false,north=true,south=true,west=false": { "model": "furnish:coffee_table_leg_0", "uvlock": true },
+	"east=false,north=true,south=false,west=true": { "model": "furnish:coffee_table_leg_1", "uvlock": true },
+        "east=true,north=false,south=false,west=true": { "model": "furnish:coffee_table_leg_2", "y": 90, "uvlock": true },
+        "east=true,north=false,south=true,west=false": { "model": "furnish:coffee_table_leg_1", "y": 180, "uvlock": true },
+        "east=true,north=false,south=false,west=true": { "model": "furnish:coffee_table_leg_0", "y": 180, "uvlock": true },
+        "east=false,north=false,south=true,west=true": { "model": "furnish:coffee_table_leg_1", "y": 270, "uvlock": true },
+        "east=true,north=true,south=true,west=true": { "model": "furnish:coffee_table_leg_0", "uvlock": true },
+        "east=true,north=true,south=true,west=false": { "model": "furnish:coffee_table_leg_0", "uvlock": true },
+        "east=true,north=true,south=false,west=true": { "model": "furnish:coffee_table_leg_0", "uvlock": true },
+        "east=false,north=true,south=true,west=true": { "model": "furnish:coffee_table_leg_0", "uvlock": true },
+        "east=true,north=false,south=true,west=true": { "model": "furnish:coffee_table_leg_0", "uvlock": true }
+    }
+}

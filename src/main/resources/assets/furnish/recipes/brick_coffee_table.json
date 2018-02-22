@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "stone_coffee_table",
+    "pattern": [
+        "   ",
+        "###",
+        "# #"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:brick_block"
+        }
+    },
+    "result": {
+        "item": "furnish:brick_coffee_table"
+    }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "table",
+  "pattern": [
+    "###",
+    "# #",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:planks",
+      "data": 5
+    }
+  },
+  "result": {
+    "item": "furnish:dark_oak_table"
+  }
+}

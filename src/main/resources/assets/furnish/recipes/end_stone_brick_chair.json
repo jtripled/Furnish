@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "stone_chair",
+    "pattern": [
+        "#  ",
+        "###",
+        "# #"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:end_bricks"
+        }
+    },
+    "result": {
+        "item": "furnish:end_stone_brick_chair"
+    }
+}
