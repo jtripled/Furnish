@@ -1,46 +1,36 @@
 package com.jtripled.furnish.block;
 
-import com.jtripled.voxen.block.BlockSittableHorizontal;
+import com.jtripled.voxen.block.BlockBase;
+import com.jtripled.voxen.block.IBlockFacing;
+import com.jtripled.voxen.block.IBlockSittable;
 import net.minecraft.block.material.Material;
-import net.minecraft.block.properties.IProperty;
-import net.minecraft.block.properties.PropertyEnum;
-import net.minecraft.block.state.BlockStateContainer;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.util.EnumFacing;
-import net.minecraft.util.EnumHand;
-import net.minecraft.util.IStringSerializable;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockAccess;
-import net.minecraft.world.World;
 
 /**
  *
  * @author jtripled
  */
-public class BlockCouch extends BlockSittableHorizontal
+public class BlockCouch extends BlockBase implements IBlockSittable, IBlockFacing.Horizontal
 {
-    public static final PropertyEnum<BlockCouch.Type> TYPE = PropertyEnum.create("type", BlockCouch.Type.class);
-    
     public BlockCouch(String name, Material material)
     {
         super(name, material);
-        this.setDefaultState(this.getDefaultState().withProperty(TYPE, BlockCouch.Type.NONE));
         this.setTab(CreativeTabs.DECORATIONS);
         this.setItem();
         this.setFullCube(false);
         this.setOpaque(false);
-        this.setSeatHeight(0.4375d);
-    }
-    
-    @Override
-    public boolean onBlockActivated(World world, BlockPos pos, IBlockState state, EntityPlayer player, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ)
-    {
-        return false;
     }
 
     @Override
+    public double getSeatHeight(IBlockState state, IBlockAccess world, BlockPos pos)
+    {
+        return 0.4375d;
+    }
+
+    /*@Override
     protected BlockStateContainer createBlockState()
     {
         return new BlockStateContainer(this, new IProperty[] {TYPE, FACING});
@@ -133,5 +123,5 @@ public class BlockCouch extends BlockSittableHorizontal
         {
             return this.name;
         }
-    }
+    }*/
 }
