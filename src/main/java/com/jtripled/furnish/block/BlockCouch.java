@@ -1,11 +1,11 @@
 package com.jtripled.furnish.block;
 
 import com.jtripled.voxen.block.BlockBase;
-import com.jtripled.voxen.block.IBlockFacing;
+import com.jtripled.voxen.block.IBlockFaceable;
 import com.jtripled.voxen.block.IBlockSittable;
+import com.jtripled.voxen.util.Tab;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockAccess;
 
@@ -13,12 +13,12 @@ import net.minecraft.world.IBlockAccess;
  *
  * @author jtripled
  */
-public class BlockCouch extends BlockBase implements IBlockSittable, IBlockFacing.Horizontal
+public class BlockCouch extends BlockBase implements IBlockSittable, IBlockFaceable.Horizontal
 {
     public BlockCouch(String name, Material material)
     {
         super(name, material);
-        this.setTab(CreativeTabs.DECORATIONS);
+        this.setTab(Tab.DECORATION);
         this.setItem();
         this.setFullCube(false);
         this.setOpaque(false);
