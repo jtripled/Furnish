@@ -1,8 +1,8 @@
 package com.jtripled.furnish;
 
-import com.jtripled.voxen.mod.ModBase;
-import com.jtripled.voxen.mod.Registry;
+import com.jtripled.furnish.proxy.Proxy;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
@@ -13,58 +13,59 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
  */
 @Mod(modid = Furnish.ID, name = Furnish.NAME, version = Furnish.VERSION, dependencies = Furnish.DEPENDS)
 @Mod.EventBusSubscriber
-public class Furnish extends ModBase
+public class Furnish
 {
     public static final String ID = "furnish";
     public static final String NAME = "Furnish";
     public static final String VERSION = "1.0";
-    public static final String DEPENDS = "required-after:voxenforge;after:biomesoplenty";
+    public static final String DEPENDS = "after:biomesoplenty";
     
-    @Mod.Instance(Furnish.ID)
+    @Mod.Instance(ID)
     public static Furnish INSTANCE;
     
-    public static Registry REGISTRY;
+    @SidedProxy(serverSide = "com.jtripled." + ID + ".proxy.ProxyServer", clientSide = "com.jtripled." + ID + ".proxy.ProxyClient")
+    public static Proxy PROXY;
+    
+    public static Furnish getInstance()
+    {
+        return INSTANCE;
+    }
 
-    @Override
-    public String getID()
+    public static String getID()
     {
         return ID;
     }
 
-    @Override
-    public String getName()
+    public static String getName()
     {
         return NAME;
     }
 
-    @Override
-    public String getVersion()
+    public static String getVersion()
     {
         return VERSION;
     }
     
-    @Override
-    public Registry getRegistry()
+    public static Proxy getProxy()
     {
-        return REGISTRY;
+        return PROXY;
     }
     
     @Mod.EventHandler
     public void onPreInit(FMLPreInitializationEvent event)
     {
-        REGISTRY = new FurnishRegistry();
-        preInit(event);
+        
     }
     
     @Mod.EventHandler
     public void onInit(FMLInitializationEvent event)
     {
-        init(event);
+        
     }
     
     @Mod.EventHandler
     public void onPostInit(FMLPostInitializationEvent event)
     {
-        postInit(event);
+        
     }
 }
