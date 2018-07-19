@@ -1,9 +1,6 @@
 package com.jtripled.furnish;
 
-import com.jtripled.furnish.block.BlockChair;
-import com.jtripled.furnish.block.BlockCoffeeTable;
-import com.jtripled.furnish.block.BlockCouch;
-import com.jtripled.furnish.block.BlockTable;
+import com.jtripled.furnish.item.FurnishItemBlock;
 import net.minecraft.item.Item;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Loader;
@@ -17,180 +14,180 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 @Mod.EventBusSubscriber
 public class FurnishItems
 {
-    public static final Item ACACIA_CHAIR_ITEM = ((BlockChair) FurnishBlocks.ACACIA_CHAIR).getItem();
-    public static final Item ACACIA_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.ACACIA_COFFEE_TABLE).getItem();
-    public static final Item ACACIA_COUCH_ITEM = ((BlockCouch) FurnishBlocks.ACACIA_COUCH).getItem();
-    public static final Item ACACIA_TABLE_ITEM = ((BlockTable) FurnishBlocks.ACACIA_TABLE).getItem();
+    public static final Item ACACIA_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.ACACIA_CHAIR);
+    public static final Item ACACIA_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.ACACIA_COFFEE_TABLE);
+    public static final Item ACACIA_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.ACACIA_COUCH);
+    public static final Item ACACIA_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.ACACIA_TABLE);
     
-    public static final Item ANDESITE_CHAIR_ITEM = ((BlockChair) FurnishBlocks.ANDESITE_CHAIR).getItem();
-    public static final Item ANDESITE_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.ANDESITE_COFFEE_TABLE).getItem();
-    public static final Item ANDESITE_COUCH_ITEM = ((BlockCouch) FurnishBlocks.ANDESITE_COUCH).getItem();
-    public static final Item ANDESITE_TABLE_ITEM = ((BlockTable) FurnishBlocks.ANDESITE_TABLE).getItem();
+    public static final Item ANDESITE_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.ANDESITE_CHAIR);
+    public static final Item ANDESITE_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.ANDESITE_COFFEE_TABLE);
+    public static final Item ANDESITE_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.ANDESITE_COUCH);
+    public static final Item ANDESITE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.ANDESITE_TABLE);
     
-    public static final Item BIRCH_CHAIR_ITEM = ((BlockChair) FurnishBlocks.BIRCH_CHAIR).getItem();
-    public static final Item BIRCH_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.BIRCH_COFFEE_TABLE).getItem();
-    public static final Item BIRCH_COUCH_ITEM = ((BlockCouch) FurnishBlocks.BIRCH_COUCH).getItem();
-    public static final Item BIRCH_TABLE_ITEM = ((BlockTable) FurnishBlocks.BIRCH_TABLE).getItem();
+    public static final Item BIRCH_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.BIRCH_CHAIR);
+    public static final Item BIRCH_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.BIRCH_COFFEE_TABLE);
+    public static final Item BIRCH_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.BIRCH_COUCH);
+    public static final Item BIRCH_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.BIRCH_TABLE);
     
-    public static final Item BONE_CHAIR_ITEM = ((BlockChair) FurnishBlocks.BONE_CHAIR).getItem();
-    public static final Item BONE_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.BONE_COFFEE_TABLE).getItem();
-    public static final Item BONE_COUCH_ITEM = ((BlockCouch) FurnishBlocks.BONE_COUCH).getItem();
-    public static final Item BONE_TABLE_ITEM = ((BlockTable) FurnishBlocks.BONE_TABLE).getItem();
+    public static final Item BONE_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.BONE_CHAIR);
+    public static final Item BONE_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.BONE_COFFEE_TABLE);
+    public static final Item BONE_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.BONE_COUCH);
+    public static final Item BONE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.BONE_TABLE);
     
-    public static final Item BRICK_CHAIR_ITEM = ((BlockChair) FurnishBlocks.BRICK_CHAIR).getItem();
-    public static final Item BRICK_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.BRICK_COFFEE_TABLE).getItem();
-    public static final Item BRICK_COUCH_ITEM = ((BlockCouch) FurnishBlocks.BRICK_COUCH).getItem();
-    public static final Item BRICK_TABLE_ITEM = ((BlockTable) FurnishBlocks.BRICK_TABLE).getItem();
+    public static final Item BRICK_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.BRICK_CHAIR);
+    public static final Item BRICK_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.BRICK_COFFEE_TABLE);
+    public static final Item BRICK_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.BRICK_COUCH);
+    public static final Item BRICK_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.BRICK_TABLE);
     
-    public static final Item COBBLESTONE_CHAIR_ITEM = ((BlockChair) FurnishBlocks.COBBLESTONE_CHAIR).getItem();
-    public static final Item COBBLESTONE_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.COBBLESTONE_COFFEE_TABLE).getItem();
-    public static final Item COBBLESTONE_COUCH_ITEM = ((BlockCouch) FurnishBlocks.COBBLESTONE_COUCH).getItem();
-    public static final Item COBBLESTONE_TABLE_ITEM = ((BlockTable) FurnishBlocks.COBBLESTONE_TABLE).getItem();
+    public static final Item COBBLESTONE_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.COBBLESTONE_CHAIR);
+    public static final Item COBBLESTONE_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.COBBLESTONE_COFFEE_TABLE);
+    public static final Item COBBLESTONE_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.COBBLESTONE_COUCH);
+    public static final Item COBBLESTONE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.COBBLESTONE_TABLE);
     
-    public static final Item DARK_OAK_CHAIR_ITEM = ((BlockChair) FurnishBlocks.DARK_OAK_CHAIR).getItem();
-    public static final Item DARK_OAK_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.DARK_OAK_COFFEE_TABLE).getItem();
-    public static final Item DARK_OAK_COUCH_ITEM = ((BlockCouch) FurnishBlocks.DARK_OAK_COUCH).getItem();
-    public static final Item DARK_OAK_TABLE_ITEM = ((BlockTable) FurnishBlocks.DARK_OAK_TABLE).getItem();
+    public static final Item DARK_OAK_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.DARK_OAK_CHAIR);
+    public static final Item DARK_OAK_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.DARK_OAK_COFFEE_TABLE);
+    public static final Item DARK_OAK_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.DARK_OAK_COUCH);
+    public static final Item DARK_OAK_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.DARK_OAK_TABLE);
     
-    public static final Item DARK_PRISMARINE_CHAIR_ITEM = ((BlockChair) FurnishBlocks.DARK_PRISMARINE_CHAIR).getItem();
-    public static final Item DARK_PRISMARINE_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.DARK_PRISMARINE_COFFEE_TABLE).getItem();
-    public static final Item DARK_PRISMARINE_COUCH_ITEM = ((BlockCouch) FurnishBlocks.DARK_PRISMARINE_COUCH).getItem();
-    public static final Item DARK_PRISMARINE_TABLE_ITEM = ((BlockTable) FurnishBlocks.DARK_PRISMARINE_TABLE).getItem();
+    public static final Item DARK_PRISMARINE_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.DARK_PRISMARINE_CHAIR);
+    public static final Item DARK_PRISMARINE_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.DARK_PRISMARINE_COFFEE_TABLE);
+    public static final Item DARK_PRISMARINE_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.DARK_PRISMARINE_COUCH);
+    public static final Item DARK_PRISMARINE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.DARK_PRISMARINE_TABLE);
     
-    public static final Item DIAMOND_CHAIR_ITEM = ((BlockChair) FurnishBlocks.DIAMOND_CHAIR).getItem();
-    public static final Item DIAMOND_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.DIAMOND_COFFEE_TABLE).getItem();
-    public static final Item DIAMOND_COUCH_ITEM = ((BlockCouch) FurnishBlocks.DIAMOND_COUCH).getItem();
-    public static final Item DIAMOND_TABLE_ITEM = ((BlockTable) FurnishBlocks.DIAMOND_TABLE).getItem();
+    public static final Item DIAMOND_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.DIAMOND_CHAIR);
+    public static final Item DIAMOND_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.DIAMOND_COFFEE_TABLE);
+    public static final Item DIAMOND_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.DIAMOND_COUCH);
+    public static final Item DIAMOND_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.DIAMOND_TABLE);
     
-    public static final Item DIORITE_CHAIR_ITEM = ((BlockChair) FurnishBlocks.DIORITE_CHAIR).getItem();
-    public static final Item DIORITE_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.DIORITE_COFFEE_TABLE).getItem();
-    public static final Item DIORITE_COUCH_ITEM = ((BlockCouch) FurnishBlocks.DIORITE_COUCH).getItem();
-    public static final Item DIORITE_TABLE_ITEM = ((BlockTable) FurnishBlocks.DIORITE_TABLE).getItem();
+    public static final Item DIORITE_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.DIORITE_CHAIR);
+    public static final Item DIORITE_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.DIORITE_COFFEE_TABLE);
+    public static final Item DIORITE_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.DIORITE_COUCH);
+    public static final Item DIORITE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.DIORITE_TABLE);
     
-    public static final Item EMERALD_CHAIR_ITEM = ((BlockChair) FurnishBlocks.EMERALD_CHAIR).getItem();
-    public static final Item EMERALD_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.EMERALD_COFFEE_TABLE).getItem();
-    public static final Item EMERALD_COUCH_ITEM = ((BlockCouch) FurnishBlocks.EMERALD_COUCH).getItem();
-    public static final Item EMERALD_TABLE_ITEM = ((BlockTable) FurnishBlocks.EMERALD_TABLE).getItem();
+    public static final Item EMERALD_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.EMERALD_CHAIR);
+    public static final Item EMERALD_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.EMERALD_COFFEE_TABLE);
+    public static final Item EMERALD_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.EMERALD_COUCH);
+    public static final Item EMERALD_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.EMERALD_TABLE);
     
-    public static final Item END_STONE_BRICK_CHAIR_ITEM = ((BlockChair) FurnishBlocks.END_STONE_BRICK_CHAIR).getItem();
-    public static final Item END_STONE_BRICK_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.END_STONE_BRICK_COFFEE_TABLE).getItem();
-    public static final Item END_STONE_BRICK_COUCH_ITEM = ((BlockCouch) FurnishBlocks.END_STONE_BRICK_COUCH).getItem();
-    public static final Item END_STONE_BRICK_TABLE_ITEM = ((BlockTable) FurnishBlocks.END_STONE_BRICK_TABLE).getItem();
+    public static final Item END_STONE_BRICK_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.END_STONE_BRICK_CHAIR);
+    public static final Item END_STONE_BRICK_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.END_STONE_BRICK_COFFEE_TABLE);
+    public static final Item END_STONE_BRICK_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.END_STONE_BRICK_COUCH);
+    public static final Item END_STONE_BRICK_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.END_STONE_BRICK_TABLE);
     
-    public static final Item GOLD_CHAIR_ITEM = ((BlockChair) FurnishBlocks.GOLD_CHAIR).getItem();
-    public static final Item GOLD_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.GOLD_COFFEE_TABLE).getItem();
-    public static final Item GOLD_COUCH_ITEM = ((BlockCouch) FurnishBlocks.GOLD_COUCH).getItem();
-    public static final Item GOLD_TABLE_ITEM = ((BlockTable) FurnishBlocks.GOLD_TABLE).getItem();
+    public static final Item GOLD_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.GOLD_CHAIR);
+    public static final Item GOLD_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.GOLD_COFFEE_TABLE);
+    public static final Item GOLD_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.GOLD_COUCH);
+    public static final Item GOLD_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.GOLD_TABLE);
     
-    public static final Item GRANITE_CHAIR_ITEM = ((BlockChair) FurnishBlocks.GRANITE_CHAIR).getItem();
-    public static final Item GRANITE_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.GRANITE_COFFEE_TABLE).getItem();
-    public static final Item GRANITE_COUCH_ITEM = ((BlockCouch) FurnishBlocks.GRANITE_COUCH).getItem();
-    public static final Item GRANITE_TABLE_ITEM = ((BlockTable) FurnishBlocks.GRANITE_TABLE).getItem();
+    public static final Item GRANITE_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.GRANITE_CHAIR);
+    public static final Item GRANITE_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.GRANITE_COFFEE_TABLE);
+    public static final Item GRANITE_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.GRANITE_COUCH);
+    public static final Item GRANITE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.GRANITE_TABLE);
     
-    public static final Item IRON_CHAIR_ITEM = ((BlockChair) FurnishBlocks.IRON_CHAIR).getItem();
-    public static final Item IRON_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.IRON_COFFEE_TABLE).getItem();
-    public static final Item IRON_COUCH_ITEM = ((BlockCouch) FurnishBlocks.IRON_COUCH).getItem();
-    public static final Item IRON_TABLE_ITEM = ((BlockTable) FurnishBlocks.IRON_TABLE).getItem();
+    public static final Item IRON_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.IRON_CHAIR);
+    public static final Item IRON_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.IRON_COFFEE_TABLE);
+    public static final Item IRON_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.IRON_COUCH);
+    public static final Item IRON_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.IRON_TABLE);
     
-    public static final Item JUNGLE_CHAIR_ITEM = ((BlockChair) FurnishBlocks.JUNGLE_CHAIR).getItem();
-    public static final Item JUNGLE_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.JUNGLE_COFFEE_TABLE).getItem();
-    public static final Item JUNGLE_COUCH_ITEM = ((BlockCouch) FurnishBlocks.JUNGLE_COUCH).getItem();
-    public static final Item JUNGLE_TABLE_ITEM = ((BlockTable) FurnishBlocks.JUNGLE_TABLE).getItem();
+    public static final Item JUNGLE_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.JUNGLE_CHAIR);
+    public static final Item JUNGLE_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.JUNGLE_COFFEE_TABLE);
+    public static final Item JUNGLE_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.JUNGLE_COUCH);
+    public static final Item JUNGLE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.JUNGLE_TABLE);
     
-    public static final Item LAPIS_LAZULI_CHAIR_ITEM = ((BlockChair) FurnishBlocks.LAPIS_LAZULI_CHAIR).getItem();
-    public static final Item LAPIS_LAZULI_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.LAPIS_LAZULI_COFFEE_TABLE).getItem();
-    public static final Item LAPIS_LAZULI_COUCH_ITEM = ((BlockCouch) FurnishBlocks.LAPIS_LAZULI_COUCH).getItem();
-    public static final Item LAPIS_LAZULI_TABLE_ITEM = ((BlockTable) FurnishBlocks.LAPIS_LAZULI_TABLE).getItem();
+    public static final Item LAPIS_LAZULI_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.LAPIS_LAZULI_CHAIR);
+    public static final Item LAPIS_LAZULI_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.LAPIS_LAZULI_COFFEE_TABLE);
+    public static final Item LAPIS_LAZULI_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.LAPIS_LAZULI_COUCH);
+    public static final Item LAPIS_LAZULI_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.LAPIS_LAZULI_TABLE);
     
-    public static final Item MOSS_STONE_CHAIR_ITEM = ((BlockChair) FurnishBlocks.MOSS_STONE_CHAIR).getItem();
-    public static final Item MOSS_STONE_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.MOSS_STONE_COFFEE_TABLE).getItem();
-    public static final Item MOSS_STONE_COUCH_ITEM = ((BlockCouch) FurnishBlocks.MOSS_STONE_COUCH).getItem();
-    public static final Item MOSS_STONE_TABLE_ITEM = ((BlockTable) FurnishBlocks.MOSS_STONE_TABLE).getItem();
+    public static final Item MOSS_STONE_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.MOSS_STONE_CHAIR);
+    public static final Item MOSS_STONE_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.MOSS_STONE_COFFEE_TABLE);
+    public static final Item MOSS_STONE_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.MOSS_STONE_COUCH);
+    public static final Item MOSS_STONE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.MOSS_STONE_TABLE);
     
-    public static final Item NETHER_BRICK_CHAIR_ITEM = ((BlockChair) FurnishBlocks.NETHER_BRICK_CHAIR).getItem();
-    public static final Item NETHER_BRICK_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.NETHER_BRICK_COFFEE_TABLE).getItem();
-    public static final Item NETHER_BRICK_COUCH_ITEM = ((BlockCouch) FurnishBlocks.NETHER_BRICK_COUCH).getItem();
-    public static final Item NETHER_BRICK_TABLE_ITEM = ((BlockTable) FurnishBlocks.NETHER_BRICK_TABLE).getItem();
+    public static final Item NETHER_BRICK_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.NETHER_BRICK_CHAIR);
+    public static final Item NETHER_BRICK_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.NETHER_BRICK_COFFEE_TABLE);
+    public static final Item NETHER_BRICK_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.NETHER_BRICK_COUCH);
+    public static final Item NETHER_BRICK_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.NETHER_BRICK_TABLE);
     
-    public static final Item OAK_CHAIR_ITEM = ((BlockChair) FurnishBlocks.OAK_CHAIR).getItem();
-    public static final Item OAK_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.OAK_COFFEE_TABLE).getItem();
-    public static final Item OAK_COUCH_ITEM = ((BlockCouch) FurnishBlocks.OAK_COUCH).getItem();
-    public static final Item OAK_TABLE_ITEM = ((BlockTable) FurnishBlocks.OAK_TABLE).getItem();
+    public static final Item OAK_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.OAK_CHAIR);
+    public static final Item OAK_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.OAK_COFFEE_TABLE);
+    public static final Item OAK_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.OAK_COUCH);
+    public static final Item OAK_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.OAK_TABLE);
     
-    public static final Item OBSIDIAN_CHAIR_ITEM = ((BlockChair) FurnishBlocks.OBSIDIAN_CHAIR).getItem();
-    public static final Item OBSIDIAN_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.OBSIDIAN_COFFEE_TABLE).getItem();
-    public static final Item OBSIDIAN_COUCH_ITEM = ((BlockCouch) FurnishBlocks.OBSIDIAN_COUCH).getItem();
-    public static final Item OBSIDIAN_TABLE_ITEM = ((BlockTable) FurnishBlocks.OBSIDIAN_TABLE).getItem();
+    public static final Item OBSIDIAN_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.OBSIDIAN_CHAIR);
+    public static final Item OBSIDIAN_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.OBSIDIAN_COFFEE_TABLE);
+    public static final Item OBSIDIAN_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.OBSIDIAN_COUCH);
+    public static final Item OBSIDIAN_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.OBSIDIAN_TABLE);
     
-    public static final Item POLISHED_ANDESITE_CHAIR_ITEM = ((BlockChair) FurnishBlocks.POLISHED_ANDESITE_CHAIR).getItem();
-    public static final Item POLISHED_ANDESITE_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.POLISHED_ANDESITE_COFFEE_TABLE).getItem();
-    public static final Item POLISHED_ANDESITE_COUCH_ITEM = ((BlockCouch) FurnishBlocks.POLISHED_ANDESITE_COUCH).getItem();
-    public static final Item POLISHED_ANDESITE_TABLE_ITEM = ((BlockTable) FurnishBlocks.POLISHED_ANDESITE_TABLE).getItem();
+    public static final Item POLISHED_ANDESITE_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.POLISHED_ANDESITE_CHAIR);
+    public static final Item POLISHED_ANDESITE_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.POLISHED_ANDESITE_COFFEE_TABLE);
+    public static final Item POLISHED_ANDESITE_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.POLISHED_ANDESITE_COUCH);
+    public static final Item POLISHED_ANDESITE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.POLISHED_ANDESITE_TABLE);
     
-    public static final Item POLISHED_DIORITE_CHAIR_ITEM = ((BlockChair) FurnishBlocks.POLISHED_DIORITE_CHAIR).getItem();
-    public static final Item POLISHED_DIORITE_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.POLISHED_DIORITE_COFFEE_TABLE).getItem();
-    public static final Item POLISHED_DIORITE_COUCH_ITEM = ((BlockCouch) FurnishBlocks.POLISHED_DIORITE_COUCH).getItem();
-    public static final Item POLISHED_DIORITE_TABLE_ITEM = ((BlockTable) FurnishBlocks.POLISHED_DIORITE_TABLE).getItem();
+    public static final Item POLISHED_DIORITE_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.POLISHED_DIORITE_CHAIR);
+    public static final Item POLISHED_DIORITE_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.POLISHED_DIORITE_COFFEE_TABLE);
+    public static final Item POLISHED_DIORITE_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.POLISHED_DIORITE_COUCH);
+    public static final Item POLISHED_DIORITE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.POLISHED_DIORITE_TABLE);
     
-    public static final Item POLISHED_GRANITE_CHAIR_ITEM = ((BlockChair) FurnishBlocks.POLISHED_GRANITE_CHAIR).getItem();
-    public static final Item POLISHED_GRANITE_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.POLISHED_GRANITE_COFFEE_TABLE).getItem();
-    public static final Item POLISHED_GRANITE_COUCH_ITEM = ((BlockCouch) FurnishBlocks.POLISHED_GRANITE_COUCH).getItem();
-    public static final Item POLISHED_GRANITE_TABLE_ITEM = ((BlockTable) FurnishBlocks.POLISHED_GRANITE_TABLE).getItem();
+    public static final Item POLISHED_GRANITE_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.POLISHED_GRANITE_CHAIR);
+    public static final Item POLISHED_GRANITE_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.POLISHED_GRANITE_COFFEE_TABLE);
+    public static final Item POLISHED_GRANITE_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.POLISHED_GRANITE_COUCH);
+    public static final Item POLISHED_GRANITE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.POLISHED_GRANITE_TABLE);
     
-    public static final Item PRISMARINE_CHAIR_ITEM = ((BlockChair) FurnishBlocks.PRISMARINE_CHAIR).getItem();
-    public static final Item PRISMARINE_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.PRISMARINE_COFFEE_TABLE).getItem();
-    public static final Item PRISMARINE_COUCH_ITEM = ((BlockCouch) FurnishBlocks.PRISMARINE_COUCH).getItem();
-    public static final Item PRISMARINE_TABLE_ITEM = ((BlockTable) FurnishBlocks.PRISMARINE_TABLE).getItem();
+    public static final Item PRISMARINE_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.PRISMARINE_CHAIR);
+    public static final Item PRISMARINE_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.PRISMARINE_COFFEE_TABLE);
+    public static final Item PRISMARINE_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.PRISMARINE_COUCH);
+    public static final Item PRISMARINE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.PRISMARINE_TABLE);
     
-    public static final Item PRISMARINE_BRICK_CHAIR_ITEM = ((BlockChair) FurnishBlocks.PRISMARINE_BRICK_CHAIR).getItem();
-    public static final Item PRISMARINE_BRICK_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.PRISMARINE_BRICK_COFFEE_TABLE).getItem();
-    public static final Item PRISMARINE_BRICK_COUCH_ITEM = ((BlockCouch) FurnishBlocks.PRISMARINE_BRICK_COUCH).getItem();
-    public static final Item PRISMARINE_BRICK_TABLE_ITEM = ((BlockTable) FurnishBlocks.PRISMARINE_BRICK_TABLE).getItem();
+    public static final Item PRISMARINE_BRICK_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.PRISMARINE_BRICK_CHAIR);
+    public static final Item PRISMARINE_BRICK_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.PRISMARINE_BRICK_COFFEE_TABLE);
+    public static final Item PRISMARINE_BRICK_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.PRISMARINE_BRICK_COUCH);
+    public static final Item PRISMARINE_BRICK_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.PRISMARINE_BRICK_TABLE);
     
-    public static final Item PURPUR_CHAIR_ITEM = ((BlockChair) FurnishBlocks.PURPUR_CHAIR).getItem();
-    public static final Item PURPUR_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.PURPUR_COFFEE_TABLE).getItem();
-    public static final Item PURPUR_COUCH_ITEM = ((BlockCouch) FurnishBlocks.PURPUR_COUCH).getItem();
-    public static final Item PURPUR_TABLE_ITEM = ((BlockTable) FurnishBlocks.PURPUR_TABLE).getItem();
+    public static final Item PURPUR_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.PURPUR_CHAIR);
+    public static final Item PURPUR_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.PURPUR_COFFEE_TABLE);
+    public static final Item PURPUR_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.PURPUR_COUCH);
+    public static final Item PURPUR_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.PURPUR_TABLE);
     
-    public static final Item QUARTZ_CHAIR_ITEM = ((BlockChair) FurnishBlocks.QUARTZ_CHAIR).getItem();
-    public static final Item QUARTZ_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.QUARTZ_COFFEE_TABLE).getItem();
-    public static final Item QUARTZ_COUCH_ITEM = ((BlockCouch) FurnishBlocks.QUARTZ_COUCH).getItem();
-    public static final Item QUARTZ_TABLE_ITEM = ((BlockTable) FurnishBlocks.QUARTZ_TABLE).getItem();
+    public static final Item QUARTZ_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.QUARTZ_CHAIR);
+    public static final Item QUARTZ_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.QUARTZ_COFFEE_TABLE);
+    public static final Item QUARTZ_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.QUARTZ_COUCH);
+    public static final Item QUARTZ_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.QUARTZ_TABLE);
     
-    public static final Item RED_NETHER_BRICK_CHAIR_ITEM = ((BlockChair) FurnishBlocks.RED_NETHER_BRICK_CHAIR).getItem();
-    public static final Item RED_NETHER_BRICK_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.RED_NETHER_BRICK_COFFEE_TABLE).getItem();
-    public static final Item RED_NETHER_BRICK_COUCH_ITEM = ((BlockCouch) FurnishBlocks.RED_NETHER_BRICK_COUCH).getItem();
-    public static final Item RED_NETHER_BRICK_TABLE_ITEM = ((BlockTable) FurnishBlocks.RED_NETHER_BRICK_TABLE).getItem();
+    public static final Item RED_NETHER_BRICK_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.RED_NETHER_BRICK_CHAIR);
+    public static final Item RED_NETHER_BRICK_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.RED_NETHER_BRICK_COFFEE_TABLE);
+    public static final Item RED_NETHER_BRICK_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.RED_NETHER_BRICK_COUCH);
+    public static final Item RED_NETHER_BRICK_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.RED_NETHER_BRICK_TABLE);
     
-    public static final Item RED_SANDSTONE_CHAIR_ITEM = ((BlockChair) FurnishBlocks.RED_SANDSTONE_CHAIR).getItem();
-    public static final Item RED_SANDSTONE_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.RED_SANDSTONE_COFFEE_TABLE).getItem();
-    public static final Item RED_SANDSTONE_COUCH_ITEM = ((BlockCouch) FurnishBlocks.RED_SANDSTONE_COUCH).getItem();
-    public static final Item RED_SANDSTONE_TABLE_ITEM = ((BlockTable) FurnishBlocks.RED_SANDSTONE_TABLE).getItem();
+    public static final Item RED_SANDSTONE_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.RED_SANDSTONE_CHAIR);
+    public static final Item RED_SANDSTONE_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.RED_SANDSTONE_COFFEE_TABLE);
+    public static final Item RED_SANDSTONE_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.RED_SANDSTONE_COUCH);
+    public static final Item RED_SANDSTONE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.RED_SANDSTONE_TABLE);
     
-    public static final Item REDSTONE_CHAIR_ITEM = ((BlockChair) FurnishBlocks.REDSTONE_CHAIR).getItem();
-    public static final Item REDSTONE_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.REDSTONE_COFFEE_TABLE).getItem();
-    public static final Item REDSTONE_COUCH_ITEM = ((BlockCouch) FurnishBlocks.REDSTONE_COUCH).getItem();
-    public static final Item REDSTONE_TABLE_ITEM = ((BlockTable) FurnishBlocks.REDSTONE_TABLE).getItem();
+    public static final Item REDSTONE_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.REDSTONE_CHAIR);
+    public static final Item REDSTONE_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.REDSTONE_COFFEE_TABLE);
+    public static final Item REDSTONE_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.REDSTONE_COUCH);
+    public static final Item REDSTONE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.REDSTONE_TABLE);
     
-    public static final Item SANDSTONE_CHAIR_ITEM = ((BlockChair) FurnishBlocks.SANDSTONE_CHAIR).getItem();
-    public static final Item SANDSTONE_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.SANDSTONE_COFFEE_TABLE).getItem();
-    public static final Item SANDSTONE_COUCH_ITEM = ((BlockCouch) FurnishBlocks.SANDSTONE_COUCH).getItem();
-    public static final Item SANDSTONE_TABLE_ITEM = ((BlockTable) FurnishBlocks.SANDSTONE_TABLE).getItem();
+    public static final Item SANDSTONE_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.SANDSTONE_CHAIR);
+    public static final Item SANDSTONE_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.SANDSTONE_COFFEE_TABLE);
+    public static final Item SANDSTONE_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.SANDSTONE_COUCH);
+    public static final Item SANDSTONE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.SANDSTONE_TABLE);
     
-    public static final Item SPRUCE_CHAIR_ITEM = ((BlockChair) FurnishBlocks.SPRUCE_CHAIR).getItem();
-    public static final Item SPRUCE_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.SPRUCE_COFFEE_TABLE).getItem();
-    public static final Item SPRUCE_COUCH_ITEM = ((BlockCouch) FurnishBlocks.SPRUCE_COUCH).getItem();
-    public static final Item SPRUCE_TABLE_ITEM = ((BlockTable) FurnishBlocks.SPRUCE_TABLE).getItem();
+    public static final Item SPRUCE_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.SPRUCE_CHAIR);
+    public static final Item SPRUCE_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.SPRUCE_COFFEE_TABLE);
+    public static final Item SPRUCE_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.SPRUCE_COUCH);
+    public static final Item SPRUCE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.SPRUCE_TABLE);
     
-    public static final Item STONE_BRICK_CHAIR_ITEM = ((BlockChair) FurnishBlocks.STONE_BRICK_CHAIR).getItem();
-    public static final Item STONE_BRICK_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.STONE_BRICK_COFFEE_TABLE).getItem();
-    public static final Item STONE_BRICK_COUCH_ITEM = ((BlockCouch) FurnishBlocks.STONE_BRICK_COUCH).getItem();
-    public static final Item STONE_BRICK_TABLE_ITEM = ((BlockTable) FurnishBlocks.STONE_BRICK_TABLE).getItem();
+    public static final Item STONE_BRICK_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.STONE_BRICK_CHAIR);
+    public static final Item STONE_BRICK_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.STONE_BRICK_COFFEE_TABLE);
+    public static final Item STONE_BRICK_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.STONE_BRICK_COUCH);
+    public static final Item STONE_BRICK_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.STONE_BRICK_TABLE);
     
-    public static final Item STONE_CHAIR_ITEM = ((BlockChair) FurnishBlocks.STONE_CHAIR).getItem();
-    public static final Item STONE_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.STONE_COFFEE_TABLE).getItem();
-    public static final Item STONE_COUCH_ITEM = ((BlockCouch) FurnishBlocks.STONE_COUCH).getItem();
-    public static final Item STONE_TABLE_ITEM = ((BlockTable) FurnishBlocks.STONE_TABLE).getItem();
+    public static final Item STONE_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.STONE_CHAIR);
+    public static final Item STONE_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.STONE_COFFEE_TABLE);
+    public static final Item STONE_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.STONE_COUCH);
+    public static final Item STONE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.STONE_TABLE);
     
     public static boolean BOP_LOADED = false;
     
@@ -341,145 +338,145 @@ public class FurnishItems
         {
             BOP_LOADED = true;
             
-            BOP_CHERRY_CHAIR_ITEM = ((BlockChair) FurnishBlocks.BOP_CHERRY_CHAIR).getItem();
-            BOP_CHERRY_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.BOP_CHERRY_COFFEE_TABLE).getItem();
-            BOP_CHERRY_COUCH_ITEM = ((BlockCouch) FurnishBlocks.BOP_CHERRY_COUCH).getItem();
-            BOP_CHERRY_TABLE_ITEM = ((BlockTable) FurnishBlocks.BOP_CHERRY_TABLE).getItem();
+            BOP_CHERRY_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_CHERRY_CHAIR);
+            BOP_CHERRY_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_CHERRY_COFFEE_TABLE);
+            BOP_CHERRY_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_CHERRY_COUCH);
+            BOP_CHERRY_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_CHERRY_TABLE);
             
-            BOP_EBONY_CHAIR_ITEM = ((BlockChair) FurnishBlocks.BOP_EBONY_CHAIR).getItem();
-            BOP_EBONY_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.BOP_EBONY_COFFEE_TABLE).getItem();
-            BOP_EBONY_COUCH_ITEM = ((BlockCouch) FurnishBlocks.BOP_EBONY_COUCH).getItem();
-            BOP_EBONY_TABLE_ITEM = ((BlockTable) FurnishBlocks.BOP_EBONY_TABLE).getItem();
+            BOP_EBONY_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_EBONY_CHAIR);
+            BOP_EBONY_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_EBONY_COFFEE_TABLE);
+            BOP_EBONY_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_EBONY_COUCH);
+            BOP_EBONY_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_EBONY_TABLE);
             
-            BOP_ETHEREAL_CHAIR_ITEM = ((BlockChair) FurnishBlocks.BOP_ETHEREAL_CHAIR).getItem();
-            BOP_ETHEREAL_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.BOP_ETHEREAL_COFFEE_TABLE).getItem();
-            BOP_ETHEREAL_COUCH_ITEM = ((BlockCouch) FurnishBlocks.BOP_ETHEREAL_COUCH).getItem();
-            BOP_ETHEREAL_TABLE_ITEM = ((BlockTable) FurnishBlocks.BOP_ETHEREAL_TABLE).getItem();
+            BOP_ETHEREAL_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_ETHEREAL_CHAIR);
+            BOP_ETHEREAL_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_ETHEREAL_COFFEE_TABLE);
+            BOP_ETHEREAL_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_ETHEREAL_COUCH);
+            BOP_ETHEREAL_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_ETHEREAL_TABLE);
             
-            BOP_EUCALYPTUS_CHAIR_ITEM = ((BlockChair) FurnishBlocks.BOP_EUCALYPTUS_CHAIR).getItem();
-            BOP_EUCALYPTUS_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.BOP_EUCALYPTUS_COFFEE_TABLE).getItem();
-            BOP_EUCALYPTUS_COUCH_ITEM = ((BlockCouch) FurnishBlocks.BOP_EUCALYPTUS_COUCH).getItem();
-            BOP_EUCALYPTUS_TABLE_ITEM = ((BlockTable) FurnishBlocks.BOP_EUCALYPTUS_TABLE).getItem();
+            BOP_EUCALYPTUS_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_EUCALYPTUS_CHAIR);
+            BOP_EUCALYPTUS_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_EUCALYPTUS_COFFEE_TABLE);
+            BOP_EUCALYPTUS_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_EUCALYPTUS_COUCH);
+            BOP_EUCALYPTUS_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_EUCALYPTUS_TABLE);
             
-            BOP_FIR_CHAIR_ITEM = ((BlockChair) FurnishBlocks.BOP_FIR_CHAIR).getItem();
-            BOP_FIR_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.BOP_FIR_COFFEE_TABLE).getItem();
-            BOP_FIR_COUCH_ITEM = ((BlockCouch) FurnishBlocks.BOP_FIR_COUCH).getItem();
-            BOP_FIR_TABLE_ITEM = ((BlockTable) FurnishBlocks.BOP_FIR_TABLE).getItem();
+            BOP_FIR_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_FIR_CHAIR);
+            BOP_FIR_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_FIR_COFFEE_TABLE);
+            BOP_FIR_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_FIR_COUCH);
+            BOP_FIR_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_FIR_TABLE);
             
-            BOP_HELLBARK_CHAIR_ITEM = ((BlockChair) FurnishBlocks.BOP_HELLBARK_CHAIR).getItem();
-            BOP_HELLBARK_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.BOP_HELLBARK_COFFEE_TABLE).getItem();
-            BOP_HELLBARK_COUCH_ITEM = ((BlockCouch) FurnishBlocks.BOP_HELLBARK_COUCH).getItem();
-            BOP_HELLBARK_TABLE_ITEM = ((BlockTable) FurnishBlocks.BOP_HELLBARK_TABLE).getItem();
+            BOP_HELLBARK_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_HELLBARK_CHAIR);
+            BOP_HELLBARK_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_HELLBARK_COFFEE_TABLE);
+            BOP_HELLBARK_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_HELLBARK_COUCH);
+            BOP_HELLBARK_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_HELLBARK_TABLE);
             
-            BOP_JACARANDA_CHAIR_ITEM = ((BlockChair) FurnishBlocks.BOP_JACARANDA_CHAIR).getItem();
-            BOP_JACARANDA_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.BOP_JACARANDA_COFFEE_TABLE).getItem();
-            BOP_JACARANDA_COUCH_ITEM = ((BlockCouch) FurnishBlocks.BOP_JACARANDA_COUCH).getItem();
-            BOP_JACARANDA_TABLE_ITEM = ((BlockTable) FurnishBlocks.BOP_JACARANDA_TABLE).getItem();
+            BOP_JACARANDA_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_JACARANDA_CHAIR);
+            BOP_JACARANDA_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_JACARANDA_COFFEE_TABLE);
+            BOP_JACARANDA_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_JACARANDA_COUCH);
+            BOP_JACARANDA_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_JACARANDA_TABLE);
             
-            BOP_MAGIC_CHAIR_ITEM = ((BlockChair) FurnishBlocks.BOP_MAGIC_CHAIR).getItem();
-            BOP_MAGIC_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.BOP_MAGIC_COFFEE_TABLE).getItem();
-            BOP_MAGIC_COUCH_ITEM = ((BlockCouch) FurnishBlocks.BOP_MAGIC_COUCH).getItem();
-            BOP_MAGIC_TABLE_ITEM = ((BlockTable) FurnishBlocks.BOP_MAGIC_TABLE).getItem();
+            BOP_MAGIC_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_MAGIC_CHAIR);
+            BOP_MAGIC_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_MAGIC_COFFEE_TABLE);
+            BOP_MAGIC_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_MAGIC_COUCH);
+            BOP_MAGIC_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_MAGIC_TABLE);
             
-            BOP_MAHOGANY_CHAIR_ITEM = ((BlockChair) FurnishBlocks.BOP_MAHOGANY_CHAIR).getItem();
-            BOP_MAHOGANY_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.BOP_MAHOGANY_COFFEE_TABLE).getItem();
-            BOP_MAHOGANY_COUCH_ITEM = ((BlockCouch) FurnishBlocks.BOP_MAHOGANY_COUCH).getItem();
-            BOP_MAHOGANY_TABLE_ITEM = ((BlockTable) FurnishBlocks.BOP_MAHOGANY_TABLE).getItem();
+            BOP_MAHOGANY_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_MAHOGANY_CHAIR);
+            BOP_MAHOGANY_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_MAHOGANY_COFFEE_TABLE);
+            BOP_MAHOGANY_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_MAHOGANY_COUCH);
+            BOP_MAHOGANY_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_MAHOGANY_TABLE);
             
-            BOP_MANGROVE_CHAIR_ITEM = ((BlockChair) FurnishBlocks.BOP_MANGROVE_CHAIR).getItem();
-            BOP_MANGROVE_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.BOP_MANGROVE_COFFEE_TABLE).getItem();
-            BOP_MANGROVE_COUCH_ITEM = ((BlockCouch) FurnishBlocks.BOP_MANGROVE_COUCH).getItem();
-            BOP_MANGROVE_TABLE_ITEM = ((BlockTable) FurnishBlocks.BOP_MANGROVE_TABLE).getItem();
+            BOP_MANGROVE_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_MANGROVE_CHAIR);
+            BOP_MANGROVE_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_MANGROVE_COFFEE_TABLE);
+            BOP_MANGROVE_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_MANGROVE_COUCH);
+            BOP_MANGROVE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_MANGROVE_TABLE);
             
-            BOP_PALM_CHAIR_ITEM = ((BlockChair) FurnishBlocks.BOP_PALM_CHAIR).getItem();
-            BOP_PALM_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.BOP_PALM_COFFEE_TABLE).getItem();
-            BOP_PALM_COUCH_ITEM = ((BlockCouch) FurnishBlocks.BOP_PALM_COUCH).getItem();
-            BOP_PALM_TABLE_ITEM = ((BlockTable) FurnishBlocks.BOP_PALM_TABLE).getItem();
+            BOP_PALM_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_PALM_CHAIR);
+            BOP_PALM_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_PALM_COFFEE_TABLE);
+            BOP_PALM_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_PALM_COUCH);
+            BOP_PALM_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_PALM_TABLE);
             
-            BOP_PINE_CHAIR_ITEM = ((BlockChair) FurnishBlocks.BOP_PINE_CHAIR).getItem();
-            BOP_PINE_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.BOP_PINE_COFFEE_TABLE).getItem();
-            BOP_PINE_COUCH_ITEM = ((BlockCouch) FurnishBlocks.BOP_PINE_COUCH).getItem();
-            BOP_PINE_TABLE_ITEM = ((BlockTable) FurnishBlocks.BOP_PINE_TABLE).getItem();
+            BOP_PINE_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_PINE_CHAIR);
+            BOP_PINE_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_PINE_COFFEE_TABLE);
+            BOP_PINE_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_PINE_COUCH);
+            BOP_PINE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_PINE_TABLE);
             
-            BOP_REDWOOD_CHAIR_ITEM = ((BlockChair) FurnishBlocks.BOP_REDWOOD_CHAIR).getItem();
-            BOP_REDWOOD_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.BOP_REDWOOD_COFFEE_TABLE).getItem();
-            BOP_REDWOOD_COUCH_ITEM = ((BlockCouch) FurnishBlocks.BOP_REDWOOD_COUCH).getItem();
-            BOP_REDWOOD_TABLE_ITEM = ((BlockTable) FurnishBlocks.BOP_REDWOOD_TABLE).getItem();
+            BOP_REDWOOD_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_REDWOOD_CHAIR);
+            BOP_REDWOOD_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_REDWOOD_COFFEE_TABLE);
+            BOP_REDWOOD_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_REDWOOD_COUCH);
+            BOP_REDWOOD_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_REDWOOD_TABLE);
             
-            BOP_SACRED_OAK_CHAIR_ITEM = ((BlockChair) FurnishBlocks.BOP_SACRED_OAK_CHAIR).getItem();
-            BOP_SACRED_OAK_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.BOP_SACRED_OAK_COFFEE_TABLE).getItem();
-            BOP_SACRED_OAK_COUCH_ITEM = ((BlockCouch) FurnishBlocks.BOP_SACRED_OAK_COUCH).getItem();
-            BOP_SACRED_OAK_TABLE_ITEM = ((BlockTable) FurnishBlocks.BOP_SACRED_OAK_TABLE).getItem();
+            BOP_SACRED_OAK_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_SACRED_OAK_CHAIR);
+            BOP_SACRED_OAK_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_SACRED_OAK_COFFEE_TABLE);
+            BOP_SACRED_OAK_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_SACRED_OAK_COUCH);
+            BOP_SACRED_OAK_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_SACRED_OAK_TABLE);
             
-            BOP_UMBRAN_CHAIR_ITEM = ((BlockChair) FurnishBlocks.BOP_UMBRAN_CHAIR).getItem();
-            BOP_UMBRAN_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.BOP_UMBRAN_COFFEE_TABLE).getItem();
-            BOP_UMBRAN_COUCH_ITEM = ((BlockCouch) FurnishBlocks.BOP_UMBRAN_COUCH).getItem();
-            BOP_UMBRAN_TABLE_ITEM = ((BlockTable) FurnishBlocks.BOP_UMBRAN_TABLE).getItem();
+            BOP_UMBRAN_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_UMBRAN_CHAIR);
+            BOP_UMBRAN_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_UMBRAN_COFFEE_TABLE);
+            BOP_UMBRAN_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_UMBRAN_COUCH);
+            BOP_UMBRAN_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_UMBRAN_TABLE);
             
-            BOP_WILLOW_CHAIR_ITEM = ((BlockChair) FurnishBlocks.BOP_WILLOW_CHAIR).getItem();
-            BOP_WILLOW_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.BOP_WILLOW_COFFEE_TABLE).getItem();
-            BOP_WILLOW_COUCH_ITEM = ((BlockCouch) FurnishBlocks.BOP_WILLOW_COUCH).getItem();
-            BOP_WILLOW_TABLE_ITEM = ((BlockTable) FurnishBlocks.BOP_WILLOW_TABLE).getItem();
+            BOP_WILLOW_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_WILLOW_CHAIR);
+            BOP_WILLOW_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_WILLOW_COFFEE_TABLE);
+            BOP_WILLOW_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_WILLOW_COUCH);
+            BOP_WILLOW_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_WILLOW_TABLE);
             
-            BOP_BAMBOO_CHAIR_ITEM = ((BlockChair) FurnishBlocks.BOP_BAMBOO_CHAIR).getItem();
-            BOP_BAMBOO_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.BOP_BAMBOO_COFFEE_TABLE).getItem();
-            BOP_BAMBOO_COUCH_ITEM = ((BlockCouch) FurnishBlocks.BOP_BAMBOO_COUCH).getItem();
-            BOP_BAMBOO_TABLE_ITEM = ((BlockTable) FurnishBlocks.BOP_BAMBOO_TABLE).getItem();
+            BOP_BAMBOO_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_BAMBOO_CHAIR);
+            BOP_BAMBOO_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_BAMBOO_COFFEE_TABLE);
+            BOP_BAMBOO_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_BAMBOO_COUCH);
+            BOP_BAMBOO_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_BAMBOO_TABLE);
             
-            BOP_MUD_BRICK_CHAIR_ITEM = ((BlockChair) FurnishBlocks.BOP_MUD_BRICK_CHAIR).getItem();
-            BOP_MUD_BRICK_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.BOP_MUD_BRICK_COFFEE_TABLE).getItem();
-            BOP_MUD_BRICK_COUCH_ITEM = ((BlockCouch) FurnishBlocks.BOP_MUD_BRICK_COUCH).getItem();
-            BOP_MUD_BRICK_TABLE_ITEM = ((BlockTable) FurnishBlocks.BOP_MUD_BRICK_TABLE).getItem();
+            BOP_MUD_BRICK_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_MUD_BRICK_CHAIR);
+            BOP_MUD_BRICK_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_MUD_BRICK_COFFEE_TABLE);
+            BOP_MUD_BRICK_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_MUD_BRICK_COUCH);
+            BOP_MUD_BRICK_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_MUD_BRICK_TABLE);
             
-            BOP_WHITE_SANDSTONE_CHAIR_ITEM = ((BlockChair) FurnishBlocks.BOP_WHITE_SANDSTONE_CHAIR).getItem();
-            BOP_WHITE_SANDSTONE_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.BOP_WHITE_SANDSTONE_COFFEE_TABLE).getItem();
-            BOP_WHITE_SANDSTONE_COUCH_ITEM = ((BlockCouch) FurnishBlocks.BOP_WHITE_SANDSTONE_COUCH).getItem();
-            BOP_WHITE_SANDSTONE_TABLE_ITEM = ((BlockTable) FurnishBlocks.BOP_WHITE_SANDSTONE_TABLE).getItem();
+            BOP_WHITE_SANDSTONE_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_WHITE_SANDSTONE_CHAIR);
+            BOP_WHITE_SANDSTONE_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_WHITE_SANDSTONE_COFFEE_TABLE);
+            BOP_WHITE_SANDSTONE_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_WHITE_SANDSTONE_COUCH);
+            BOP_WHITE_SANDSTONE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_WHITE_SANDSTONE_TABLE);
             
-            BOP_AMETHYST_CHAIR_ITEM = ((BlockChair) FurnishBlocks.BOP_AMETHYST_CHAIR).getItem();
-            BOP_AMETHYST_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.BOP_AMETHYST_COFFEE_TABLE).getItem();
-            BOP_AMETHYST_COUCH_ITEM = ((BlockCouch) FurnishBlocks.BOP_AMETHYST_COUCH).getItem();
-            BOP_AMETHYST_TABLE_ITEM = ((BlockTable) FurnishBlocks.BOP_AMETHYST_TABLE).getItem();
+            BOP_AMETHYST_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_AMETHYST_CHAIR);
+            BOP_AMETHYST_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_AMETHYST_COFFEE_TABLE);
+            BOP_AMETHYST_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_AMETHYST_COUCH);
+            BOP_AMETHYST_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_AMETHYST_TABLE);
             
-            BOP_RUBY_CHAIR_ITEM = ((BlockChair) FurnishBlocks.BOP_RUBY_CHAIR).getItem();
-            BOP_RUBY_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.BOP_RUBY_COFFEE_TABLE).getItem();
-            BOP_RUBY_COUCH_ITEM = ((BlockCouch) FurnishBlocks.BOP_RUBY_COUCH).getItem();
-            BOP_RUBY_TABLE_ITEM = ((BlockTable) FurnishBlocks.BOP_RUBY_TABLE).getItem();
+            BOP_RUBY_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_RUBY_CHAIR);
+            BOP_RUBY_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_RUBY_COFFEE_TABLE);
+            BOP_RUBY_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_RUBY_COUCH);
+            BOP_RUBY_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_RUBY_TABLE);
             
-            BOP_PERIDOT_CHAIR_ITEM = ((BlockChair) FurnishBlocks.BOP_PERIDOT_CHAIR).getItem();
-            BOP_PERIDOT_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.BOP_PERIDOT_COFFEE_TABLE).getItem();
-            BOP_PERIDOT_COUCH_ITEM = ((BlockCouch) FurnishBlocks.BOP_PERIDOT_COUCH).getItem();
-            BOP_PERIDOT_TABLE_ITEM = ((BlockTable) FurnishBlocks.BOP_PERIDOT_TABLE).getItem();
+            BOP_PERIDOT_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_PERIDOT_CHAIR);
+            BOP_PERIDOT_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_PERIDOT_COFFEE_TABLE);
+            BOP_PERIDOT_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_PERIDOT_COUCH);
+            BOP_PERIDOT_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_PERIDOT_TABLE);
             
-            BOP_TOPAZ_CHAIR_ITEM = ((BlockChair) FurnishBlocks.BOP_TOPAZ_CHAIR).getItem();
-            BOP_TOPAZ_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.BOP_TOPAZ_COFFEE_TABLE).getItem();
-            BOP_TOPAZ_COUCH_ITEM = ((BlockCouch) FurnishBlocks.BOP_TOPAZ_COUCH).getItem();
-            BOP_TOPAZ_TABLE_ITEM = ((BlockTable) FurnishBlocks.BOP_TOPAZ_TABLE).getItem();
+            BOP_TOPAZ_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_TOPAZ_CHAIR);
+            BOP_TOPAZ_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_TOPAZ_COFFEE_TABLE);
+            BOP_TOPAZ_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_TOPAZ_COUCH);
+            BOP_TOPAZ_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_TOPAZ_TABLE);
             
-            BOP_TANZANITE_CHAIR_ITEM = ((BlockChair) FurnishBlocks.BOP_TANZANITE_CHAIR).getItem();
-            BOP_TANZANITE_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.BOP_TANZANITE_COFFEE_TABLE).getItem();
-            BOP_TANZANITE_COUCH_ITEM = ((BlockCouch) FurnishBlocks.BOP_TANZANITE_COUCH).getItem();
-            BOP_TANZANITE_TABLE_ITEM = ((BlockTable) FurnishBlocks.BOP_TANZANITE_TABLE).getItem();
+            BOP_TANZANITE_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_TANZANITE_CHAIR);
+            BOP_TANZANITE_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_TANZANITE_COFFEE_TABLE);
+            BOP_TANZANITE_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_TANZANITE_COUCH);
+            BOP_TANZANITE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_TANZANITE_TABLE);
             
-            BOP_MALACHITE_CHAIR_ITEM = ((BlockChair) FurnishBlocks.BOP_MALACHITE_CHAIR).getItem();
-            BOP_MALACHITE_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.BOP_MALACHITE_COFFEE_TABLE).getItem();
-            BOP_MALACHITE_COUCH_ITEM = ((BlockCouch) FurnishBlocks.BOP_MALACHITE_COUCH).getItem();
-            BOP_MALACHITE_TABLE_ITEM = ((BlockTable) FurnishBlocks.BOP_MALACHITE_TABLE).getItem();
+            BOP_MALACHITE_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_MALACHITE_CHAIR);
+            BOP_MALACHITE_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_MALACHITE_COFFEE_TABLE);
+            BOP_MALACHITE_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_MALACHITE_COUCH);
+            BOP_MALACHITE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_MALACHITE_TABLE);
             
-            BOP_SAPPHIRE_CHAIR_ITEM = ((BlockChair) FurnishBlocks.BOP_SAPPHIRE_CHAIR).getItem();
-            BOP_SAPPHIRE_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.BOP_SAPPHIRE_COFFEE_TABLE).getItem();
-            BOP_SAPPHIRE_COUCH_ITEM = ((BlockCouch) FurnishBlocks.BOP_SAPPHIRE_COUCH).getItem();
-            BOP_SAPPHIRE_TABLE_ITEM = ((BlockTable) FurnishBlocks.BOP_SAPPHIRE_TABLE).getItem();
+            BOP_SAPPHIRE_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_SAPPHIRE_CHAIR);
+            BOP_SAPPHIRE_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_SAPPHIRE_COFFEE_TABLE);
+            BOP_SAPPHIRE_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_SAPPHIRE_COUCH);
+            BOP_SAPPHIRE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_SAPPHIRE_TABLE);
             
-            BOP_AMBER_CHAIR_ITEM = ((BlockChair) FurnishBlocks.BOP_AMBER_CHAIR).getItem();
-            BOP_AMBER_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.BOP_AMBER_COFFEE_TABLE).getItem();
-            BOP_AMBER_COUCH_ITEM = ((BlockCouch) FurnishBlocks.BOP_AMBER_COUCH).getItem();
-            BOP_AMBER_TABLE_ITEM = ((BlockTable) FurnishBlocks.BOP_AMBER_TABLE).getItem();
+            BOP_AMBER_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_AMBER_CHAIR);
+            BOP_AMBER_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_AMBER_COFFEE_TABLE);
+            BOP_AMBER_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_AMBER_COUCH);
+            BOP_AMBER_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_AMBER_TABLE);
             
-            BOP_FLESH_CHAIR_ITEM = ((BlockChair) FurnishBlocks.BOP_FLESH_CHAIR).getItem();
-            BOP_FLESH_COFFEE_TABLE_ITEM = ((BlockCoffeeTable) FurnishBlocks.BOP_FLESH_COFFEE_TABLE).getItem();
-            BOP_FLESH_COUCH_ITEM = ((BlockCouch) FurnishBlocks.BOP_FLESH_COUCH).getItem();
-            BOP_FLESH_TABLE_ITEM = ((BlockTable) FurnishBlocks.BOP_FLESH_TABLE).getItem();
+            BOP_FLESH_CHAIR_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_FLESH_CHAIR);
+            BOP_FLESH_COFFEE_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_FLESH_COFFEE_TABLE);
+            BOP_FLESH_COUCH_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_FLESH_COUCH);
+            BOP_FLESH_TABLE_ITEM = new FurnishItemBlock(FurnishBlocks.BOP_FLESH_TABLE);
         }
         
         event.getRegistry().register(ACACIA_CHAIR_ITEM);
