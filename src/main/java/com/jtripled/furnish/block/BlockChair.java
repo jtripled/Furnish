@@ -1,6 +1,7 @@
 package com.jtripled.furnish.block;
 
 import com.jtripled.furnish.Furnish;
+import com.jtripled.furnish.entity.EntitySeat;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.properties.IProperty;
@@ -9,9 +10,11 @@ import net.minecraft.block.state.BlockStateContainer;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.EntityLivingBase;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.util.EnumFacing;
+import net.minecraft.util.EnumHand;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.math.BlockPos;
@@ -28,8 +31,6 @@ public final class BlockChair extends Block
     
     public static final PropertyDirection FACING = PropertyDirection.create("facing", (EnumFacing face) -> { return face != EnumFacing.UP && face != EnumFacing.DOWN; });
     
-    private final Item item;
-    
     public BlockChair(String name, Material material)
     {
         super(material);
@@ -37,12 +38,20 @@ public final class BlockChair extends Block
         this.setRegistryName(new ResourceLocation(Furnish.ID, name));
         this.setCreativeTab(CreativeTabs.DECORATIONS);
         this.setDefaultState(this.getDefaultState().withProperty(FACING, EnumFacing.NORTH));
-        this.item = new ItemBlock(this).setUnlocalizedName(this.getUnlocalizedName()).setRegistryName(this.getRegistryName());
     }
     
-    public Item getItem()
+    @Override
+    public boolean onBlockActivated(World world, BlockPos pos, IBlockState state, EntityPlayer player, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ)
     {
-        return item;
+        if(!player.isSneaking())
+        {
+            if(EntitySeat.sitOnBlock(world, pos.getX(), pos.getY(), pos.getZ(), player, 7 * 0.0625))
+            {
+                world.updateComparatorOutputLevel(pos, this);
+                return true;
+            }
+        }
+        return false;
     }
     
     @Override
@@ -85,5 +94,17 @@ public final class BlockChair extends Block
     public boolean isOpaqueCube(IBlockState state)
     {
         return false;
+    }
+    
+    @Override
+    public boolean hasComparatorInputOverride(IBlockState state)
+    {
+        return true;
+    }
+
+    @Override
+    public int getComparatorInputOverride(IBlockState blockState, World worldIn, BlockPos pos)
+    {
+        return EntitySeat.isSomeoneSitting(worldIn, pos.getX(), pos.getY(), pos.getZ()) ? 1 : 0;
     }
 }

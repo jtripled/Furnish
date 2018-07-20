@@ -27,9 +27,7 @@ public final class BlockCoffeeTable extends Block
     public static final PropertyBool EAST = PropertyBool.create("east");
     public static final PropertyBool SOUTH = PropertyBool.create("south");
     public static final PropertyBool WEST = PropertyBool.create("west");
-    
-    private final Item item;
-    
+
     public BlockCoffeeTable(String name, Material material)
     {
         super(material);
@@ -37,12 +35,6 @@ public final class BlockCoffeeTable extends Block
         this.setRegistryName(new ResourceLocation(Furnish.ID, name));
         this.setCreativeTab(CreativeTabs.DECORATIONS);
         this.setDefaultState(this.getDefaultState().withProperty(NORTH, false).withProperty(EAST, false).withProperty(SOUTH, false).withProperty(WEST, false));
-        this.item = new ItemBlock(this).setUnlocalizedName(this.getUnlocalizedName()).setRegistryName(this.getRegistryName());
-    }
-    
-    public Item getItem()
-    {
-        return item;
     }
 
     @Override

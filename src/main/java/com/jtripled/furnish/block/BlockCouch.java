@@ -28,8 +28,6 @@ public final class BlockCouch extends Block
     
     public static final PropertyDirection FACING = PropertyDirection.create("facing", (EnumFacing face) -> { return face != EnumFacing.UP && face != EnumFacing.DOWN; });
     
-    private final Item item;
-    
     public BlockCouch(String name, Material material)
     {
         super(material);
@@ -37,12 +35,6 @@ public final class BlockCouch extends Block
         this.setRegistryName(new ResourceLocation(Furnish.ID, name));
         this.setCreativeTab(CreativeTabs.DECORATIONS);
         this.setDefaultState(this.getDefaultState().withProperty(FACING, EnumFacing.NORTH));
-        this.item = new ItemBlock(this).setUnlocalizedName(this.getUnlocalizedName()).setRegistryName(this.getRegistryName());
-    }
-    
-    public Item getItem()
-    {
-        return item;
     }
     
     @Override
