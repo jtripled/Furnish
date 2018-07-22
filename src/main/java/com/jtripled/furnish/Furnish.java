@@ -1,11 +1,14 @@
 package com.jtripled.furnish;
 
+import com.jtripled.furnish.entity.EntitySeat;
 import com.jtripled.furnish.proxy.Proxy;
+import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.registry.EntityRegistry;
 
 /**
  *
@@ -60,7 +63,7 @@ public class Furnish
     @Mod.EventHandler
     public void onInit(FMLInitializationEvent event)
     {
-        
+        EntityRegistry.registerModEntity(new ResourceLocation("furnish:seat"), EntitySeat.class, "Seat", 0, this, 80, 1, false);
     }
     
     @Mod.EventHandler

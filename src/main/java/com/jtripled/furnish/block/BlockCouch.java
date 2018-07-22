@@ -1,18 +1,20 @@
 package com.jtripled.furnish.block;
 
 import com.jtripled.furnish.Furnish;
+import com.jtripled.furnish.entity.EntitySeat;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.properties.IProperty;
 import net.minecraft.block.properties.PropertyDirection;
+import net.minecraft.block.properties.PropertyEnum;
 import net.minecraft.block.state.BlockStateContainer;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.EntityLivingBase;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemBlock;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.util.EnumFacing;
-import net.minecraft.util.ResourceLocation;
+import net.minecraft.util.EnumHand;
+import net.minecraft.util.IStringSerializable;
 import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockAccess;
@@ -24,17 +26,32 @@ import net.minecraft.world.World;
  */
 public final class BlockCouch extends Block
 {
-    private static final AxisAlignedBB BOX = new AxisAlignedBB(0.0625d, 0.0d, 0.0625d, 0.9375d, 0.625d, 0.9375d);
+    private static final AxisAlignedBB BOX = new AxisAlignedBB(0.0d, 0.0d, 0.0d, 1.0d, 0.5625d, 1.0d);
     
     public static final PropertyDirection FACING = PropertyDirection.create("facing", (EnumFacing face) -> { return face != EnumFacing.UP && face != EnumFacing.DOWN; });
+    public static final PropertyEnum<Type> TYPE = PropertyEnum.<Type>create("type", Type.class);
     
     public BlockCouch(String name, Material material)
     {
         super(material);
         this.setUnlocalizedName(name);
-        this.setRegistryName(new ResourceLocation(Furnish.ID, name));
+        this.setRegistryName(Furnish.ID, name);
         this.setCreativeTab(CreativeTabs.DECORATIONS);
-        this.setDefaultState(this.getDefaultState().withProperty(FACING, EnumFacing.NORTH));
+        this.setDefaultState(this.getDefaultState().withProperty(FACING, EnumFacing.NORTH).withProperty(TYPE, Type.NONE));
+    }
+    
+    @Override
+    public boolean onBlockActivated(World world, BlockPos pos, IBlockState state, EntityPlayer player, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ)
+    {
+        if(!player.isSneaking())
+        {
+            if(EntitySeat.sitOnBlock(world, pos.getX(), pos.getY(), pos.getZ(), player, 5 * 0.0625 + 0.01))
+            {
+                world.updateComparatorOutputLevel(pos, this);
+                return true;
+            }
+        }
+        return false;
     }
     
     @Override
@@ -46,7 +63,7 @@ public final class BlockCouch extends Block
     @Override
     protected BlockStateContainer createBlockState()
     {
-        return new BlockStateContainer(this, new IProperty[] {FACING});
+        return new BlockStateContainer(this, new IProperty[] {TYPE, FACING});
     }
 
     @Override
@@ -59,6 +76,12 @@ public final class BlockCouch extends Block
     public int getMetaFromState(IBlockState state)
     {
         return state.getValue(FACING).getIndex();
+    }
+    
+    @Override
+    public IBlockState getActualState(IBlockState state, IBlockAccess world, BlockPos pos)
+    {
+        return state.withProperty(TYPE, getType(state, world, pos));
     }
     
     @Override
@@ -78,17 +101,17 @@ public final class BlockCouch extends Block
     {
         return false;
     }
-
-    /*@Override
-    protected BlockStateContainer createBlockState()
-    {
-        return new BlockStateContainer(this, new IProperty[] {TYPE, FACING});
-    }
     
     @Override
-    public IBlockState getActualState(IBlockState state, IBlockAccess world, BlockPos pos)
+    public boolean hasComparatorInputOverride(IBlockState state)
     {
-        return state.withProperty(TYPE, getType(state, world, pos));
+        return true;
+    }
+
+    @Override
+    public int getComparatorInputOverride(IBlockState blockState, World worldIn, BlockPos pos)
+    {
+        return EntitySeat.isSomeoneSitting(worldIn, pos.getX(), pos.getY(), pos.getZ()) ? 1 : 0;
     }
     
     public static BlockCouch.Type getType(IBlockState p_185706_0_, IBlockAccess p_185706_1_, BlockPos p_185706_2_)
@@ -172,5 +195,5 @@ public final class BlockCouch extends Block
         {
             return this.name;
         }
-    }*/
+    }
 }
