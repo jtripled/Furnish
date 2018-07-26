@@ -35,7 +35,7 @@ public final class BlockCouch extends Block
     {
         super(material);
         this.setUnlocalizedName(name);
-        this.setRegistryName(Furnish.ID, name);
+        this.setRegistryName(Furnish.getID(), name);
         this.setCreativeTab(CreativeTabs.DECORATIONS);
         this.setDefaultState(this.getDefaultState().withProperty(FACING, EnumFacing.NORTH).withProperty(TYPE, Type.NONE));
     }

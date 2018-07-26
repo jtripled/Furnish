@@ -1,33 +1,32 @@
 package com.jtripled.furnish;
 
-import com.jtripled.furnish.entity.EntitySeat;
 import com.jtripled.furnish.proxy.Proxy;
-import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
-import net.minecraftforge.fml.common.registry.EntityRegistry;
+import net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper;
 
 /**
  *
  * @author jtripled
  */
-@Mod(modid = Furnish.ID, name = Furnish.NAME, version = Furnish.VERSION, dependencies = Furnish.DEPENDS)
-@Mod.EventBusSubscriber
+@Mod(modid = "@mod_id@", name = "@mod_name@", version = "@mod_version@", dependencies = "@mod_depends@")
 public class Furnish
 {
-    public static final String ID = "furnish";
-    public static final String NAME = "Furnish";
-    public static final String VERSION = "1.0";
-    public static final String DEPENDS = "after:biomesoplenty";
+    protected static final String ID = "@mod_id@";
+    protected static final String NAME = "@mod_name@";
+    protected static final String VERSION = "@mod_version@";
+    protected static final String DEPENDS = "@mod_depends@";
     
     @Mod.Instance(ID)
-    public static Furnish INSTANCE;
+    protected static Furnish INSTANCE;
     
     @SidedProxy(serverSide = "com.jtripled." + ID + ".proxy.ProxyServer", clientSide = "com.jtripled." + ID + ".proxy.ProxyClient")
-    public static Proxy PROXY;
+    protected static Proxy PROXY;
+    
+    protected static final SimpleNetworkWrapper NETWORK = new SimpleNetworkWrapper(ID);
     
     public static Furnish getInstance()
     {
@@ -54,21 +53,26 @@ public class Furnish
         return PROXY;
     }
     
-    @Mod.EventHandler
-    public void onPreInit(FMLPreInitializationEvent event)
+    public static SimpleNetworkWrapper getNetwork()
     {
-        
+        return NETWORK;
     }
     
     @Mod.EventHandler
-    public void onInit(FMLInitializationEvent event)
+    protected void onPreInit(FMLPreInitializationEvent event)
     {
-        EntityRegistry.registerModEntity(new ResourceLocation("furnish:seat"), EntitySeat.class, "Seat", 0, this, 80, 1, false);
+        PROXY.onPreInit(event);
     }
     
     @Mod.EventHandler
-    public void onPostInit(FMLPostInitializationEvent event)
+    protected void onInit(FMLInitializationEvent event)
     {
-        
+        PROXY.onInit(event);
+    }
+    
+    @Mod.EventHandler
+    protected void onPostInit(FMLPostInitializationEvent event)
+    {
+        PROXY.onPostInit(event);
     }
 }

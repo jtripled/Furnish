@@ -335,10 +335,183 @@ public class FurnishBlocks
     @SubscribeEvent
     public static void onRegisterBlocks(RegistryEvent.Register<Block> event)
     {
+        Furnish.getProxy().registerBlock(event, ACACIA_CHAIR);
+        Furnish.getProxy().registerBlock(event, ACACIA_COFFEE_TABLE);
+        Furnish.getProxy().registerBlock(event, ACACIA_COUCH);
+        Furnish.getProxy().registerBlock(event, ACACIA_TABLE);
+        
+        Furnish.getProxy().registerBlock(event, ANDESITE_CHAIR);
+        Furnish.getProxy().registerBlock(event, ANDESITE_COFFEE_TABLE);
+        Furnish.getProxy().registerBlock(event, ANDESITE_COUCH);
+        Furnish.getProxy().registerBlock(event, ANDESITE_TABLE);
+        
+        Furnish.getProxy().registerBlock(event, BIRCH_CHAIR);
+        Furnish.getProxy().registerBlock(event, BIRCH_COFFEE_TABLE);
+        Furnish.getProxy().registerBlock(event, BIRCH_COUCH);
+        Furnish.getProxy().registerBlock(event, BIRCH_TABLE);
+        
+        Furnish.getProxy().registerBlock(event, BONE_CHAIR);
+        Furnish.getProxy().registerBlock(event, BONE_COFFEE_TABLE);
+        Furnish.getProxy().registerBlock(event, BONE_COUCH);
+        Furnish.getProxy().registerBlock(event, BONE_TABLE);
+        
+        Furnish.getProxy().registerBlock(event, BRICK_CHAIR);
+        Furnish.getProxy().registerBlock(event, BRICK_COFFEE_TABLE);
+        Furnish.getProxy().registerBlock(event, BRICK_COUCH);
+        Furnish.getProxy().registerBlock(event, BRICK_TABLE);
+        
+        Furnish.getProxy().registerBlock(event, COBBLESTONE_CHAIR);
+        Furnish.getProxy().registerBlock(event, COBBLESTONE_COFFEE_TABLE);
+        Furnish.getProxy().registerBlock(event, COBBLESTONE_COUCH);
+        Furnish.getProxy().registerBlock(event, COBBLESTONE_TABLE);
+        
+        Furnish.getProxy().registerBlock(event, DARK_OAK_CHAIR);
+        Furnish.getProxy().registerBlock(event, DARK_OAK_COFFEE_TABLE);
+        Furnish.getProxy().registerBlock(event, DARK_OAK_COUCH);
+        Furnish.getProxy().registerBlock(event, DARK_OAK_TABLE);
+        
+        Furnish.getProxy().registerBlock(event, DARK_PRISMARINE_CHAIR);
+        Furnish.getProxy().registerBlock(event, DARK_PRISMARINE_COFFEE_TABLE);
+        Furnish.getProxy().registerBlock(event, DARK_PRISMARINE_COUCH);
+        Furnish.getProxy().registerBlock(event, DARK_PRISMARINE_TABLE);
+        
+        Furnish.getProxy().registerBlock(event, DIAMOND_CHAIR);
+        Furnish.getProxy().registerBlock(event, DIAMOND_COFFEE_TABLE);
+        Furnish.getProxy().registerBlock(event, DIAMOND_COUCH);
+        Furnish.getProxy().registerBlock(event, DIAMOND_TABLE);
+        
+        Furnish.getProxy().registerBlock(event, DIORITE_CHAIR);
+        Furnish.getProxy().registerBlock(event, DIORITE_COFFEE_TABLE);
+        Furnish.getProxy().registerBlock(event, DIORITE_COUCH);
+        Furnish.getProxy().registerBlock(event, DIORITE_TABLE);
+        
+        Furnish.getProxy().registerBlock(event, EMERALD_CHAIR);
+        Furnish.getProxy().registerBlock(event, EMERALD_COFFEE_TABLE);
+        Furnish.getProxy().registerBlock(event, EMERALD_COUCH);
+        Furnish.getProxy().registerBlock(event, EMERALD_TABLE);
+        
+        Furnish.getProxy().registerBlock(event, END_STONE_BRICK_CHAIR);
+        Furnish.getProxy().registerBlock(event, END_STONE_BRICK_COFFEE_TABLE);
+        Furnish.getProxy().registerBlock(event, END_STONE_BRICK_COUCH);
+        Furnish.getProxy().registerBlock(event, END_STONE_BRICK_TABLE);
+        
+        Furnish.getProxy().registerBlock(event, GOLD_CHAIR);
+        Furnish.getProxy().registerBlock(event, GOLD_COFFEE_TABLE);
+        Furnish.getProxy().registerBlock(event, GOLD_COUCH);
+        Furnish.getProxy().registerBlock(event, GOLD_TABLE);
+        
+        Furnish.getProxy().registerBlock(event, GRANITE_CHAIR);
+        Furnish.getProxy().registerBlock(event, GRANITE_COFFEE_TABLE);
+        Furnish.getProxy().registerBlock(event, GRANITE_COUCH);
+        Furnish.getProxy().registerBlock(event, GRANITE_TABLE);
+        
+        Furnish.getProxy().registerBlock(event, IRON_CHAIR);
+        Furnish.getProxy().registerBlock(event, IRON_COFFEE_TABLE);
+        Furnish.getProxy().registerBlock(event, IRON_COUCH);
+        Furnish.getProxy().registerBlock(event, IRON_TABLE);
+        
+        Furnish.getProxy().registerBlock(event, JUNGLE_CHAIR);
+        Furnish.getProxy().registerBlock(event, JUNGLE_COFFEE_TABLE);
+        Furnish.getProxy().registerBlock(event, JUNGLE_COUCH);
+        Furnish.getProxy().registerBlock(event, JUNGLE_TABLE);
+        
+        Furnish.getProxy().registerBlock(event, LAPIS_LAZULI_CHAIR);
+        Furnish.getProxy().registerBlock(event, LAPIS_LAZULI_COFFEE_TABLE);
+        Furnish.getProxy().registerBlock(event, LAPIS_LAZULI_COUCH);
+        Furnish.getProxy().registerBlock(event, LAPIS_LAZULI_TABLE);
+        
+        Furnish.getProxy().registerBlock(event, MOSS_STONE_CHAIR);
+        Furnish.getProxy().registerBlock(event, MOSS_STONE_COFFEE_TABLE);
+        Furnish.getProxy().registerBlock(event, MOSS_STONE_COUCH);
+        Furnish.getProxy().registerBlock(event, MOSS_STONE_TABLE);
+        
+        Furnish.getProxy().registerBlock(event, NETHER_BRICK_CHAIR);
+        Furnish.getProxy().registerBlock(event, NETHER_BRICK_COFFEE_TABLE);
+        Furnish.getProxy().registerBlock(event, NETHER_BRICK_COUCH);
+        Furnish.getProxy().registerBlock(event, NETHER_BRICK_TABLE);
+        
+        Furnish.getProxy().registerBlock(event, OAK_CHAIR);
+        Furnish.getProxy().registerBlock(event, OAK_COFFEE_TABLE);
+        Furnish.getProxy().registerBlock(event, OAK_COUCH);
+        Furnish.getProxy().registerBlock(event, OAK_TABLE);
+        
+        Furnish.getProxy().registerBlock(event, OBSIDIAN_CHAIR);
+        Furnish.getProxy().registerBlock(event, OBSIDIAN_COFFEE_TABLE);
+        Furnish.getProxy().registerBlock(event, OBSIDIAN_COUCH);
+        Furnish.getProxy().registerBlock(event, OBSIDIAN_TABLE);
+        
+        Furnish.getProxy().registerBlock(event, POLISHED_ANDESITE_CHAIR);
+        Furnish.getProxy().registerBlock(event, POLISHED_ANDESITE_COFFEE_TABLE);
+        Furnish.getProxy().registerBlock(event, POLISHED_ANDESITE_COUCH);
+        Furnish.getProxy().registerBlock(event, POLISHED_ANDESITE_TABLE);
+        
+        Furnish.getProxy().registerBlock(event, POLISHED_DIORITE_CHAIR);
+        Furnish.getProxy().registerBlock(event, POLISHED_DIORITE_COFFEE_TABLE);
+        Furnish.getProxy().registerBlock(event, POLISHED_DIORITE_COUCH);
+        Furnish.getProxy().registerBlock(event, POLISHED_DIORITE_TABLE);
+        
+        Furnish.getProxy().registerBlock(event, POLISHED_GRANITE_CHAIR);
+        Furnish.getProxy().registerBlock(event, POLISHED_GRANITE_COFFEE_TABLE);
+        Furnish.getProxy().registerBlock(event, POLISHED_GRANITE_COUCH);
+        Furnish.getProxy().registerBlock(event, POLISHED_GRANITE_TABLE);
+        
+        Furnish.getProxy().registerBlock(event, PRISMARINE_CHAIR);
+        Furnish.getProxy().registerBlock(event, PRISMARINE_COFFEE_TABLE);
+        Furnish.getProxy().registerBlock(event, PRISMARINE_COUCH);
+        Furnish.getProxy().registerBlock(event, PRISMARINE_TABLE);
+        
+        Furnish.getProxy().registerBlock(event, PRISMARINE_BRICK_CHAIR);
+        Furnish.getProxy().registerBlock(event, PRISMARINE_BRICK_COFFEE_TABLE);
+        Furnish.getProxy().registerBlock(event, PRISMARINE_BRICK_COUCH);
+        Furnish.getProxy().registerBlock(event, PRISMARINE_BRICK_TABLE);
+        
+        Furnish.getProxy().registerBlock(event, PURPUR_CHAIR);
+        Furnish.getProxy().registerBlock(event, PURPUR_COFFEE_TABLE);
+        Furnish.getProxy().registerBlock(event, PURPUR_COUCH);
+        Furnish.getProxy().registerBlock(event, PURPUR_TABLE);
+        
+        Furnish.getProxy().registerBlock(event, QUARTZ_CHAIR);
+        Furnish.getProxy().registerBlock(event, QUARTZ_COFFEE_TABLE);
+        Furnish.getProxy().registerBlock(event, QUARTZ_COUCH);
+        Furnish.getProxy().registerBlock(event, QUARTZ_TABLE);
+        
+        Furnish.getProxy().registerBlock(event, RED_NETHER_BRICK_CHAIR);
+        Furnish.getProxy().registerBlock(event, RED_NETHER_BRICK_COFFEE_TABLE);
+        Furnish.getProxy().registerBlock(event, RED_NETHER_BRICK_COUCH);
+        Furnish.getProxy().registerBlock(event, RED_NETHER_BRICK_TABLE);
+        
+        Furnish.getProxy().registerBlock(event, RED_SANDSTONE_CHAIR);
+        Furnish.getProxy().registerBlock(event, RED_SANDSTONE_COFFEE_TABLE);
+        Furnish.getProxy().registerBlock(event, RED_SANDSTONE_COUCH);
+        Furnish.getProxy().registerBlock(event, RED_SANDSTONE_TABLE);
+        
+        Furnish.getProxy().registerBlock(event, REDSTONE_CHAIR);
+        Furnish.getProxy().registerBlock(event, REDSTONE_COFFEE_TABLE);
+        Furnish.getProxy().registerBlock(event, REDSTONE_COUCH);
+        Furnish.getProxy().registerBlock(event, REDSTONE_TABLE);
+        
+        Furnish.getProxy().registerBlock(event, SANDSTONE_CHAIR);
+        Furnish.getProxy().registerBlock(event, SANDSTONE_COFFEE_TABLE);
+        Furnish.getProxy().registerBlock(event, SANDSTONE_COUCH);
+        Furnish.getProxy().registerBlock(event, SANDSTONE_TABLE);
+        
+        Furnish.getProxy().registerBlock(event, SPRUCE_CHAIR);
+        Furnish.getProxy().registerBlock(event, SPRUCE_COFFEE_TABLE);
+        Furnish.getProxy().registerBlock(event, SPRUCE_COUCH);
+        Furnish.getProxy().registerBlock(event, SPRUCE_TABLE);
+        
+        Furnish.getProxy().registerBlock(event, STONE_BRICK_CHAIR);
+        Furnish.getProxy().registerBlock(event, STONE_BRICK_COFFEE_TABLE);
+        Furnish.getProxy().registerBlock(event, STONE_BRICK_COUCH);
+        Furnish.getProxy().registerBlock(event, STONE_BRICK_TABLE);
+        
+        Furnish.getProxy().registerBlock(event, STONE_CHAIR);
+        Furnish.getProxy().registerBlock(event, STONE_COFFEE_TABLE);
+        Furnish.getProxy().registerBlock(event, STONE_COUCH);
+        Furnish.getProxy().registerBlock(event, STONE_TABLE);
+        
         if (Loader.isModLoaded("biomesoplenty"))
         {
-            BOP_LOADED = true;
-            
             BOP_CHERRY_CHAIR = new BlockChair("cherry_chair", Material.WOOD);
             BOP_CHERRY_COFFEE_TABLE = new BlockCoffeeTable("cherry_coffee_table", Material.WOOD);
             BOP_CHERRY_COUCH = new BlockCouch("cherry_couch", Material.WOOD);
@@ -478,324 +651,146 @@ public class FurnishBlocks
             BOP_FLESH_COFFEE_TABLE = new BlockCoffeeTable("flesh_coffee_table", Material.SPONGE);
             BOP_FLESH_COUCH = new BlockCouch("flesh_couch", Material.SPONGE);
             BOP_FLESH_TABLE = new BlockTable("flesh_table", Material.SPONGE);
-        }
-        
-        event.getRegistry().register(ACACIA_CHAIR);
-        event.getRegistry().register(ACACIA_COFFEE_TABLE);
-        event.getRegistry().register(ACACIA_COUCH);
-        event.getRegistry().register(ACACIA_TABLE);
-        
-        event.getRegistry().register(ANDESITE_CHAIR);
-        event.getRegistry().register(ANDESITE_COFFEE_TABLE);
-        event.getRegistry().register(ANDESITE_COUCH);
-        event.getRegistry().register(ANDESITE_TABLE);
-        
-        event.getRegistry().register(BIRCH_CHAIR);
-        event.getRegistry().register(BIRCH_COFFEE_TABLE);
-        event.getRegistry().register(BIRCH_COUCH);
-        event.getRegistry().register(BIRCH_TABLE);
-        
-        event.getRegistry().register(BONE_CHAIR);
-        event.getRegistry().register(BONE_COFFEE_TABLE);
-        event.getRegistry().register(BONE_COUCH);
-        event.getRegistry().register(BONE_TABLE);
-        
-        event.getRegistry().register(BRICK_CHAIR);
-        event.getRegistry().register(BRICK_COFFEE_TABLE);
-        event.getRegistry().register(BRICK_COUCH);
-        event.getRegistry().register(BRICK_TABLE);
-        
-        event.getRegistry().register(COBBLESTONE_CHAIR);
-        event.getRegistry().register(COBBLESTONE_COFFEE_TABLE);
-        event.getRegistry().register(COBBLESTONE_COUCH);
-        event.getRegistry().register(COBBLESTONE_TABLE);
-        
-        event.getRegistry().register(DARK_OAK_CHAIR);
-        event.getRegistry().register(DARK_OAK_COFFEE_TABLE);
-        event.getRegistry().register(DARK_OAK_COUCH);
-        event.getRegistry().register(DARK_OAK_TABLE);
-        
-        event.getRegistry().register(DARK_PRISMARINE_CHAIR);
-        event.getRegistry().register(DARK_PRISMARINE_COFFEE_TABLE);
-        event.getRegistry().register(DARK_PRISMARINE_COUCH);
-        event.getRegistry().register(DARK_PRISMARINE_TABLE);
-        
-        event.getRegistry().register(DIAMOND_CHAIR);
-        event.getRegistry().register(DIAMOND_COFFEE_TABLE);
-        event.getRegistry().register(DIAMOND_COUCH);
-        event.getRegistry().register(DIAMOND_TABLE);
-        
-        event.getRegistry().register(DIORITE_CHAIR);
-        event.getRegistry().register(DIORITE_COFFEE_TABLE);
-        event.getRegistry().register(DIORITE_COUCH);
-        event.getRegistry().register(DIORITE_TABLE);
-        
-        event.getRegistry().register(EMERALD_CHAIR);
-        event.getRegistry().register(EMERALD_COFFEE_TABLE);
-        event.getRegistry().register(EMERALD_COUCH);
-        event.getRegistry().register(EMERALD_TABLE);
-        
-        event.getRegistry().register(END_STONE_BRICK_CHAIR);
-        event.getRegistry().register(END_STONE_BRICK_COFFEE_TABLE);
-        event.getRegistry().register(END_STONE_BRICK_COUCH);
-        event.getRegistry().register(END_STONE_BRICK_TABLE);
-        
-        event.getRegistry().register(GOLD_CHAIR);
-        event.getRegistry().register(GOLD_COFFEE_TABLE);
-        event.getRegistry().register(GOLD_COUCH);
-        event.getRegistry().register(GOLD_TABLE);
-        
-        event.getRegistry().register(GRANITE_CHAIR);
-        event.getRegistry().register(GRANITE_COFFEE_TABLE);
-        event.getRegistry().register(GRANITE_COUCH);
-        event.getRegistry().register(GRANITE_TABLE);
-        
-        event.getRegistry().register(IRON_CHAIR);
-        event.getRegistry().register(IRON_COFFEE_TABLE);
-        event.getRegistry().register(IRON_COUCH);
-        event.getRegistry().register(IRON_TABLE);
-        
-        event.getRegistry().register(JUNGLE_CHAIR);
-        event.getRegistry().register(JUNGLE_COFFEE_TABLE);
-        event.getRegistry().register(JUNGLE_COUCH);
-        event.getRegistry().register(JUNGLE_TABLE);
-        
-        event.getRegistry().register(LAPIS_LAZULI_CHAIR);
-        event.getRegistry().register(LAPIS_LAZULI_COFFEE_TABLE);
-        event.getRegistry().register(LAPIS_LAZULI_COUCH);
-        event.getRegistry().register(LAPIS_LAZULI_TABLE);
-        
-        event.getRegistry().register(MOSS_STONE_CHAIR);
-        event.getRegistry().register(MOSS_STONE_COFFEE_TABLE);
-        event.getRegistry().register(MOSS_STONE_COUCH);
-        event.getRegistry().register(MOSS_STONE_TABLE);
-        
-        event.getRegistry().register(NETHER_BRICK_CHAIR);
-        event.getRegistry().register(NETHER_BRICK_COFFEE_TABLE);
-        event.getRegistry().register(NETHER_BRICK_COUCH);
-        event.getRegistry().register(NETHER_BRICK_TABLE);
-        
-        event.getRegistry().register(OAK_CHAIR);
-        event.getRegistry().register(OAK_COFFEE_TABLE);
-        event.getRegistry().register(OAK_COUCH);
-        event.getRegistry().register(OAK_TABLE);
-        
-        event.getRegistry().register(OBSIDIAN_CHAIR);
-        event.getRegistry().register(OBSIDIAN_COFFEE_TABLE);
-        event.getRegistry().register(OBSIDIAN_COUCH);
-        event.getRegistry().register(OBSIDIAN_TABLE);
-        
-        event.getRegistry().register(POLISHED_ANDESITE_CHAIR);
-        event.getRegistry().register(POLISHED_ANDESITE_COFFEE_TABLE);
-        event.getRegistry().register(POLISHED_ANDESITE_COUCH);
-        event.getRegistry().register(POLISHED_ANDESITE_TABLE);
-        
-        event.getRegistry().register(POLISHED_DIORITE_CHAIR);
-        event.getRegistry().register(POLISHED_DIORITE_COFFEE_TABLE);
-        event.getRegistry().register(POLISHED_DIORITE_COUCH);
-        event.getRegistry().register(POLISHED_DIORITE_TABLE);
-        
-        event.getRegistry().register(POLISHED_GRANITE_CHAIR);
-        event.getRegistry().register(POLISHED_GRANITE_COFFEE_TABLE);
-        event.getRegistry().register(POLISHED_GRANITE_COUCH);
-        event.getRegistry().register(POLISHED_GRANITE_TABLE);
-        
-        event.getRegistry().register(PRISMARINE_CHAIR);
-        event.getRegistry().register(PRISMARINE_COFFEE_TABLE);
-        event.getRegistry().register(PRISMARINE_COUCH);
-        event.getRegistry().register(PRISMARINE_TABLE);
-        
-        event.getRegistry().register(PRISMARINE_BRICK_CHAIR);
-        event.getRegistry().register(PRISMARINE_BRICK_COFFEE_TABLE);
-        event.getRegistry().register(PRISMARINE_BRICK_COUCH);
-        event.getRegistry().register(PRISMARINE_BRICK_TABLE);
-        
-        event.getRegistry().register(PURPUR_CHAIR);
-        event.getRegistry().register(PURPUR_COFFEE_TABLE);
-        event.getRegistry().register(PURPUR_COUCH);
-        event.getRegistry().register(PURPUR_TABLE);
-        
-        event.getRegistry().register(QUARTZ_CHAIR);
-        event.getRegistry().register(QUARTZ_COFFEE_TABLE);
-        event.getRegistry().register(QUARTZ_COUCH);
-        event.getRegistry().register(QUARTZ_TABLE);
-        
-        event.getRegistry().register(RED_NETHER_BRICK_CHAIR);
-        event.getRegistry().register(RED_NETHER_BRICK_COFFEE_TABLE);
-        event.getRegistry().register(RED_NETHER_BRICK_COUCH);
-        event.getRegistry().register(RED_NETHER_BRICK_TABLE);
-        
-        event.getRegistry().register(RED_SANDSTONE_CHAIR);
-        event.getRegistry().register(RED_SANDSTONE_COFFEE_TABLE);
-        event.getRegistry().register(RED_SANDSTONE_COUCH);
-        event.getRegistry().register(RED_SANDSTONE_TABLE);
-        
-        event.getRegistry().register(REDSTONE_CHAIR);
-        event.getRegistry().register(REDSTONE_COFFEE_TABLE);
-        event.getRegistry().register(REDSTONE_COUCH);
-        event.getRegistry().register(REDSTONE_TABLE);
-        
-        event.getRegistry().register(SANDSTONE_CHAIR);
-        event.getRegistry().register(SANDSTONE_COFFEE_TABLE);
-        event.getRegistry().register(SANDSTONE_COUCH);
-        event.getRegistry().register(SANDSTONE_TABLE);
-        
-        event.getRegistry().register(SPRUCE_CHAIR);
-        event.getRegistry().register(SPRUCE_COFFEE_TABLE);
-        event.getRegistry().register(SPRUCE_COUCH);
-        event.getRegistry().register(SPRUCE_TABLE);
-        
-        event.getRegistry().register(STONE_BRICK_CHAIR);
-        event.getRegistry().register(STONE_BRICK_COFFEE_TABLE);
-        event.getRegistry().register(STONE_BRICK_COUCH);
-        event.getRegistry().register(STONE_BRICK_TABLE);
-        
-        event.getRegistry().register(STONE_CHAIR);
-        event.getRegistry().register(STONE_COFFEE_TABLE);
-        event.getRegistry().register(STONE_COUCH);
-        event.getRegistry().register(STONE_TABLE);
-        
-        if (BOP_LOADED)
-        {
-            event.getRegistry().register(BOP_CHERRY_CHAIR);
-            event.getRegistry().register(BOP_CHERRY_COFFEE_TABLE);
-            event.getRegistry().register(BOP_CHERRY_COUCH);
-            event.getRegistry().register(BOP_CHERRY_TABLE);
             
-            event.getRegistry().register(BOP_EBONY_CHAIR);
-            event.getRegistry().register(BOP_EBONY_COFFEE_TABLE);
-            event.getRegistry().register(BOP_EBONY_COUCH);
-            event.getRegistry().register(BOP_EBONY_TABLE);
+            Furnish.getProxy().registerBlock(event, BOP_CHERRY_CHAIR);
+            Furnish.getProxy().registerBlock(event, BOP_CHERRY_COFFEE_TABLE);
+            Furnish.getProxy().registerBlock(event, BOP_CHERRY_COUCH);
+            Furnish.getProxy().registerBlock(event, BOP_CHERRY_TABLE);
             
-            event.getRegistry().register(BOP_ETHEREAL_CHAIR);
-            event.getRegistry().register(BOP_ETHEREAL_COFFEE_TABLE);
-            event.getRegistry().register(BOP_ETHEREAL_COUCH);
-            event.getRegistry().register(BOP_ETHEREAL_TABLE);
+            Furnish.getProxy().registerBlock(event, BOP_EBONY_CHAIR);
+            Furnish.getProxy().registerBlock(event, BOP_EBONY_COFFEE_TABLE);
+            Furnish.getProxy().registerBlock(event, BOP_EBONY_COUCH);
+            Furnish.getProxy().registerBlock(event, BOP_EBONY_TABLE);
             
-            event.getRegistry().register(BOP_EUCALYPTUS_CHAIR);
-            event.getRegistry().register(BOP_EUCALYPTUS_COFFEE_TABLE);
-            event.getRegistry().register(BOP_EUCALYPTUS_COUCH);
-            event.getRegistry().register(BOP_EUCALYPTUS_TABLE);
+            Furnish.getProxy().registerBlock(event, BOP_ETHEREAL_CHAIR);
+            Furnish.getProxy().registerBlock(event, BOP_ETHEREAL_COFFEE_TABLE);
+            Furnish.getProxy().registerBlock(event, BOP_ETHEREAL_COUCH);
+            Furnish.getProxy().registerBlock(event, BOP_ETHEREAL_TABLE);
             
-            event.getRegistry().register(BOP_FIR_CHAIR);
-            event.getRegistry().register(BOP_FIR_COFFEE_TABLE);
-            event.getRegistry().register(BOP_FIR_COUCH);
-            event.getRegistry().register(BOP_FIR_TABLE);
+            Furnish.getProxy().registerBlock(event, BOP_EUCALYPTUS_CHAIR);
+            Furnish.getProxy().registerBlock(event, BOP_EUCALYPTUS_COFFEE_TABLE);
+            Furnish.getProxy().registerBlock(event, BOP_EUCALYPTUS_COUCH);
+            Furnish.getProxy().registerBlock(event, BOP_EUCALYPTUS_TABLE);
             
-            event.getRegistry().register(BOP_HELLBARK_CHAIR);
-            event.getRegistry().register(BOP_HELLBARK_COFFEE_TABLE);
-            event.getRegistry().register(BOP_HELLBARK_COUCH);
-            event.getRegistry().register(BOP_HELLBARK_TABLE);
+            Furnish.getProxy().registerBlock(event, BOP_FIR_CHAIR);
+            Furnish.getProxy().registerBlock(event, BOP_FIR_COFFEE_TABLE);
+            Furnish.getProxy().registerBlock(event, BOP_FIR_COUCH);
+            Furnish.getProxy().registerBlock(event, BOP_FIR_TABLE);
             
-            event.getRegistry().register(BOP_JACARANDA_CHAIR);
-            event.getRegistry().register(BOP_JACARANDA_COFFEE_TABLE);
-            event.getRegistry().register(BOP_JACARANDA_COUCH);
-            event.getRegistry().register(BOP_JACARANDA_TABLE);
+            Furnish.getProxy().registerBlock(event, BOP_HELLBARK_CHAIR);
+            Furnish.getProxy().registerBlock(event, BOP_HELLBARK_COFFEE_TABLE);
+            Furnish.getProxy().registerBlock(event, BOP_HELLBARK_COUCH);
+            Furnish.getProxy().registerBlock(event, BOP_HELLBARK_TABLE);
             
-            event.getRegistry().register(BOP_MAGIC_CHAIR);
-            event.getRegistry().register(BOP_MAGIC_COFFEE_TABLE);
-            event.getRegistry().register(BOP_MAGIC_COUCH);
-            event.getRegistry().register(BOP_MAGIC_TABLE);
+            Furnish.getProxy().registerBlock(event, BOP_JACARANDA_CHAIR);
+            Furnish.getProxy().registerBlock(event, BOP_JACARANDA_COFFEE_TABLE);
+            Furnish.getProxy().registerBlock(event, BOP_JACARANDA_COUCH);
+            Furnish.getProxy().registerBlock(event, BOP_JACARANDA_TABLE);
             
-            event.getRegistry().register(BOP_MAHOGANY_CHAIR);
-            event.getRegistry().register(BOP_MAHOGANY_COFFEE_TABLE);
-            event.getRegistry().register(BOP_MAHOGANY_COUCH);
-            event.getRegistry().register(BOP_MAHOGANY_TABLE);
+            Furnish.getProxy().registerBlock(event, BOP_MAGIC_CHAIR);
+            Furnish.getProxy().registerBlock(event, BOP_MAGIC_COFFEE_TABLE);
+            Furnish.getProxy().registerBlock(event, BOP_MAGIC_COUCH);
+            Furnish.getProxy().registerBlock(event, BOP_MAGIC_TABLE);
             
-            event.getRegistry().register(BOP_MANGROVE_CHAIR);
-            event.getRegistry().register(BOP_MANGROVE_COFFEE_TABLE);
-            event.getRegistry().register(BOP_MANGROVE_COUCH);
-            event.getRegistry().register(BOP_MANGROVE_TABLE);
+            Furnish.getProxy().registerBlock(event, BOP_MAHOGANY_CHAIR);
+            Furnish.getProxy().registerBlock(event, BOP_MAHOGANY_COFFEE_TABLE);
+            Furnish.getProxy().registerBlock(event, BOP_MAHOGANY_COUCH);
+            Furnish.getProxy().registerBlock(event, BOP_MAHOGANY_TABLE);
             
-            event.getRegistry().register(BOP_PALM_CHAIR);
-            event.getRegistry().register(BOP_PALM_COFFEE_TABLE);
-            event.getRegistry().register(BOP_PALM_COUCH);
-            event.getRegistry().register(BOP_PALM_TABLE);
+            Furnish.getProxy().registerBlock(event, BOP_MANGROVE_CHAIR);
+            Furnish.getProxy().registerBlock(event, BOP_MANGROVE_COFFEE_TABLE);
+            Furnish.getProxy().registerBlock(event, BOP_MANGROVE_COUCH);
+            Furnish.getProxy().registerBlock(event, BOP_MANGROVE_TABLE);
             
-            event.getRegistry().register(BOP_PINE_CHAIR);
-            event.getRegistry().register(BOP_PINE_COFFEE_TABLE);
-            event.getRegistry().register(BOP_PINE_COUCH);
-            event.getRegistry().register(BOP_PINE_TABLE);
+            Furnish.getProxy().registerBlock(event, BOP_PALM_CHAIR);
+            Furnish.getProxy().registerBlock(event, BOP_PALM_COFFEE_TABLE);
+            Furnish.getProxy().registerBlock(event, BOP_PALM_COUCH);
+            Furnish.getProxy().registerBlock(event, BOP_PALM_TABLE);
             
-            event.getRegistry().register(BOP_REDWOOD_CHAIR);
-            event.getRegistry().register(BOP_REDWOOD_COFFEE_TABLE);
-            event.getRegistry().register(BOP_REDWOOD_COUCH);
-            event.getRegistry().register(BOP_REDWOOD_TABLE);
+            Furnish.getProxy().registerBlock(event, BOP_PINE_CHAIR);
+            Furnish.getProxy().registerBlock(event, BOP_PINE_COFFEE_TABLE);
+            Furnish.getProxy().registerBlock(event, BOP_PINE_COUCH);
+            Furnish.getProxy().registerBlock(event, BOP_PINE_TABLE);
             
-            event.getRegistry().register(BOP_SACRED_OAK_CHAIR);
-            event.getRegistry().register(BOP_SACRED_OAK_COFFEE_TABLE);
-            event.getRegistry().register(BOP_SACRED_OAK_COUCH);
-            event.getRegistry().register(BOP_SACRED_OAK_TABLE);
+            Furnish.getProxy().registerBlock(event, BOP_REDWOOD_CHAIR);
+            Furnish.getProxy().registerBlock(event, BOP_REDWOOD_COFFEE_TABLE);
+            Furnish.getProxy().registerBlock(event, BOP_REDWOOD_COUCH);
+            Furnish.getProxy().registerBlock(event, BOP_REDWOOD_TABLE);
             
-            event.getRegistry().register(BOP_UMBRAN_CHAIR);
-            event.getRegistry().register(BOP_UMBRAN_COFFEE_TABLE);
-            event.getRegistry().register(BOP_UMBRAN_COUCH);
-            event.getRegistry().register(BOP_UMBRAN_TABLE);
+            Furnish.getProxy().registerBlock(event, BOP_SACRED_OAK_CHAIR);
+            Furnish.getProxy().registerBlock(event, BOP_SACRED_OAK_COFFEE_TABLE);
+            Furnish.getProxy().registerBlock(event, BOP_SACRED_OAK_COUCH);
+            Furnish.getProxy().registerBlock(event, BOP_SACRED_OAK_TABLE);
             
-            event.getRegistry().register(BOP_WILLOW_CHAIR);
-            event.getRegistry().register(BOP_WILLOW_COFFEE_TABLE);
-            event.getRegistry().register(BOP_WILLOW_COUCH);
-            event.getRegistry().register(BOP_WILLOW_TABLE);
+            Furnish.getProxy().registerBlock(event, BOP_UMBRAN_CHAIR);
+            Furnish.getProxy().registerBlock(event, BOP_UMBRAN_COFFEE_TABLE);
+            Furnish.getProxy().registerBlock(event, BOP_UMBRAN_COUCH);
+            Furnish.getProxy().registerBlock(event, BOP_UMBRAN_TABLE);
             
-            event.getRegistry().register(BOP_BAMBOO_CHAIR);
-            event.getRegistry().register(BOP_BAMBOO_COFFEE_TABLE);
-            event.getRegistry().register(BOP_BAMBOO_COUCH);
-            event.getRegistry().register(BOP_BAMBOO_TABLE);
+            Furnish.getProxy().registerBlock(event, BOP_WILLOW_CHAIR);
+            Furnish.getProxy().registerBlock(event, BOP_WILLOW_COFFEE_TABLE);
+            Furnish.getProxy().registerBlock(event, BOP_WILLOW_COUCH);
+            Furnish.getProxy().registerBlock(event, BOP_WILLOW_TABLE);
             
-            event.getRegistry().register(BOP_MUD_BRICK_CHAIR);
-            event.getRegistry().register(BOP_MUD_BRICK_COFFEE_TABLE);
-            event.getRegistry().register(BOP_MUD_BRICK_COUCH);
-            event.getRegistry().register(BOP_MUD_BRICK_TABLE);
+            Furnish.getProxy().registerBlock(event, BOP_BAMBOO_CHAIR);
+            Furnish.getProxy().registerBlock(event, BOP_BAMBOO_COFFEE_TABLE);
+            Furnish.getProxy().registerBlock(event, BOP_BAMBOO_COUCH);
+            Furnish.getProxy().registerBlock(event, BOP_BAMBOO_TABLE);
             
-            event.getRegistry().register(BOP_WHITE_SANDSTONE_CHAIR);
-            event.getRegistry().register(BOP_WHITE_SANDSTONE_COFFEE_TABLE);
-            event.getRegistry().register(BOP_WHITE_SANDSTONE_COUCH);
-            event.getRegistry().register(BOP_WHITE_SANDSTONE_TABLE);
+            Furnish.getProxy().registerBlock(event, BOP_MUD_BRICK_CHAIR);
+            Furnish.getProxy().registerBlock(event, BOP_MUD_BRICK_COFFEE_TABLE);
+            Furnish.getProxy().registerBlock(event, BOP_MUD_BRICK_COUCH);
+            Furnish.getProxy().registerBlock(event, BOP_MUD_BRICK_TABLE);
             
-            event.getRegistry().register(BOP_AMETHYST_CHAIR);
-            event.getRegistry().register(BOP_AMETHYST_COFFEE_TABLE);
-            event.getRegistry().register(BOP_AMETHYST_COUCH);
-            event.getRegistry().register(BOP_AMETHYST_TABLE);
+            Furnish.getProxy().registerBlock(event, BOP_WHITE_SANDSTONE_CHAIR);
+            Furnish.getProxy().registerBlock(event, BOP_WHITE_SANDSTONE_COFFEE_TABLE);
+            Furnish.getProxy().registerBlock(event, BOP_WHITE_SANDSTONE_COUCH);
+            Furnish.getProxy().registerBlock(event, BOP_WHITE_SANDSTONE_TABLE);
             
-            event.getRegistry().register(BOP_RUBY_CHAIR);
-            event.getRegistry().register(BOP_RUBY_COFFEE_TABLE);
-            event.getRegistry().register(BOP_RUBY_COUCH);
-            event.getRegistry().register(BOP_RUBY_TABLE);
+            Furnish.getProxy().registerBlock(event, BOP_AMETHYST_CHAIR);
+            Furnish.getProxy().registerBlock(event, BOP_AMETHYST_COFFEE_TABLE);
+            Furnish.getProxy().registerBlock(event, BOP_AMETHYST_COUCH);
+            Furnish.getProxy().registerBlock(event, BOP_AMETHYST_TABLE);
             
-            event.getRegistry().register(BOP_PERIDOT_CHAIR);
-            event.getRegistry().register(BOP_PERIDOT_COFFEE_TABLE);
-            event.getRegistry().register(BOP_PERIDOT_COUCH);
-            event.getRegistry().register(BOP_PERIDOT_TABLE);
+            Furnish.getProxy().registerBlock(event, BOP_RUBY_CHAIR);
+            Furnish.getProxy().registerBlock(event, BOP_RUBY_COFFEE_TABLE);
+            Furnish.getProxy().registerBlock(event, BOP_RUBY_COUCH);
+            Furnish.getProxy().registerBlock(event, BOP_RUBY_TABLE);
             
-            event.getRegistry().register(BOP_TOPAZ_CHAIR);
-            event.getRegistry().register(BOP_TOPAZ_COFFEE_TABLE);
-            event.getRegistry().register(BOP_TOPAZ_COUCH);
-            event.getRegistry().register(BOP_TOPAZ_TABLE);
+            Furnish.getProxy().registerBlock(event, BOP_PERIDOT_CHAIR);
+            Furnish.getProxy().registerBlock(event, BOP_PERIDOT_COFFEE_TABLE);
+            Furnish.getProxy().registerBlock(event, BOP_PERIDOT_COUCH);
+            Furnish.getProxy().registerBlock(event, BOP_PERIDOT_TABLE);
             
-            event.getRegistry().register(BOP_TANZANITE_CHAIR);
-            event.getRegistry().register(BOP_TANZANITE_COFFEE_TABLE);
-            event.getRegistry().register(BOP_TANZANITE_COUCH);
-            event.getRegistry().register(BOP_TANZANITE_TABLE);
+            Furnish.getProxy().registerBlock(event, BOP_TOPAZ_CHAIR);
+            Furnish.getProxy().registerBlock(event, BOP_TOPAZ_COFFEE_TABLE);
+            Furnish.getProxy().registerBlock(event, BOP_TOPAZ_COUCH);
+            Furnish.getProxy().registerBlock(event, BOP_TOPAZ_TABLE);
             
-            event.getRegistry().register(BOP_MALACHITE_CHAIR);
-            event.getRegistry().register(BOP_MALACHITE_COFFEE_TABLE);
-            event.getRegistry().register(BOP_MALACHITE_COUCH);
-            event.getRegistry().register(BOP_MALACHITE_TABLE);
+            Furnish.getProxy().registerBlock(event, BOP_TANZANITE_CHAIR);
+            Furnish.getProxy().registerBlock(event, BOP_TANZANITE_COFFEE_TABLE);
+            Furnish.getProxy().registerBlock(event, BOP_TANZANITE_COUCH);
+            Furnish.getProxy().registerBlock(event, BOP_TANZANITE_TABLE);
             
-            event.getRegistry().register(BOP_SAPPHIRE_CHAIR);
-            event.getRegistry().register(BOP_SAPPHIRE_COFFEE_TABLE);
-            event.getRegistry().register(BOP_SAPPHIRE_COUCH);
-            event.getRegistry().register(BOP_SAPPHIRE_TABLE);
+            Furnish.getProxy().registerBlock(event, BOP_MALACHITE_CHAIR);
+            Furnish.getProxy().registerBlock(event, BOP_MALACHITE_COFFEE_TABLE);
+            Furnish.getProxy().registerBlock(event, BOP_MALACHITE_COUCH);
+            Furnish.getProxy().registerBlock(event, BOP_MALACHITE_TABLE);
             
-            event.getRegistry().register(BOP_AMBER_CHAIR);
-            event.getRegistry().register(BOP_AMBER_COFFEE_TABLE);
-            event.getRegistry().register(BOP_AMBER_COUCH);
-            event.getRegistry().register(BOP_AMBER_TABLE);
+            Furnish.getProxy().registerBlock(event, BOP_SAPPHIRE_CHAIR);
+            Furnish.getProxy().registerBlock(event, BOP_SAPPHIRE_COFFEE_TABLE);
+            Furnish.getProxy().registerBlock(event, BOP_SAPPHIRE_COUCH);
+            Furnish.getProxy().registerBlock(event, BOP_SAPPHIRE_TABLE);
             
-            event.getRegistry().register(BOP_FLESH_CHAIR);
-            event.getRegistry().register(BOP_FLESH_COFFEE_TABLE);
-            event.getRegistry().register(BOP_FLESH_COUCH);
-            event.getRegistry().register(BOP_FLESH_TABLE);
+            Furnish.getProxy().registerBlock(event, BOP_AMBER_CHAIR);
+            Furnish.getProxy().registerBlock(event, BOP_AMBER_COFFEE_TABLE);
+            Furnish.getProxy().registerBlock(event, BOP_AMBER_COUCH);
+            Furnish.getProxy().registerBlock(event, BOP_AMBER_TABLE);
+            
+            Furnish.getProxy().registerBlock(event, BOP_FLESH_CHAIR);
+            Furnish.getProxy().registerBlock(event, BOP_FLESH_COFFEE_TABLE);
+            Furnish.getProxy().registerBlock(event, BOP_FLESH_COUCH);
+            Furnish.getProxy().registerBlock(event, BOP_FLESH_TABLE);
         }
     }
 }

@@ -29,7 +29,7 @@ public final class BlockTable extends Block
     {
         super(material);
         this.setUnlocalizedName(name);
-        this.setRegistryName(Furnish.ID, name);
+        this.setRegistryName(Furnish.getID(), name);
         this.setCreativeTab(CreativeTabs.DECORATIONS);
         this.setDefaultState(this.getDefaultState().withProperty(NORTH, false).withProperty(EAST, false).withProperty(SOUTH, false).withProperty(WEST, false));
     }
